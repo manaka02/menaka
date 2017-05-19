@@ -1,2 +1,2 @@
-<?= $contenue?>
+<?= $content?>
     
