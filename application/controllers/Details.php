@@ -21,6 +21,6 @@ class Details extends CI_Controller{
     public function prehistoire(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsph";
-        $this->load->view('detailsph',$data);
+        $this->load->view('default',$data);
     }
 }
