@@ -50,16 +50,7 @@ this.options)});b._afterUpdate&&b._afterUpdate(a,b._groups)};b._update=function(
     $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
     });
-
-
-
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
-
+    
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
