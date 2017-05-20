@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
+            <a class="navbar-brand page-scroll" href="<?= base_url('accueil')?>">
 <!--                <img src="img/logo.png" alt="logolayana">-->
                 ANDROIDLAND
             </a>
@@ -41,10 +41,10 @@
         <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="gg-menu" href="#about">Nos Univers</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/nosMondes')?>">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="#services">Preparer votre séjour</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/preparer')?>">Preparer votre séjour</a>
                 </li>
                 <li>
                     <a class="gg-menu" href="#portfolio">Proposer votre univers</a>
