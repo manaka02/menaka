@@ -5,7 +5,7 @@
 <link href="<?php echo base_url(); ?>assets/css/antsa/font-awesome.css" rel="stylesheet">
 
 <div class="">
-    <div class="services" id="services" style="padding-top: 265px;">
+    <div class="services gg-head" id="services">
         <div class="services-agile-w3l">
             <div class="clearfix"> </div>
         </div>
