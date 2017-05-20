@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="<?= base_url() ?>assets/css/w3.css">
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/animate.min.css" type="text/css">
 
 <!-- Section Intro Slider
