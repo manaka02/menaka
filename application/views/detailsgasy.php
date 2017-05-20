@@ -8,13 +8,10 @@
     <!-- gallery -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/details/lightGallery.css" type="text/css" media="all" />
     <!-- //gallery -->
-    <!-- font-awesome icons -->
-    <link href="<?php echo base_url(); ?>assets/css/details/font-awesome.css" rel="stylesheet">
-
-    <!-- //font-awesome icons -->
     <link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Jura:300,400,500,600" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
 <div class="w3-navigation">
 
 
@@ -354,4 +351,3 @@
         $().UItoTop({ easingType: 'easeOutQuart' });
 
     });
-</script>
