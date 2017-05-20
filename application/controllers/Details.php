@@ -14,7 +14,7 @@ class Details extends CI_Controller{
 
     public function gasy(){
         $data['content'] = "message d'accueil";
-        $data['contents'] = "detailsww2";
+        $data['contents'] = "detailsgasy";
         $this->load->view('default',$data);
     }
 

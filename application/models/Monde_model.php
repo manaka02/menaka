@@ -50,6 +50,19 @@ class Monde_model extends CI_Model{
         }
     }
 
+    public function insertVote($iduser, $idmonde){
+        try {
+            $data = array(
+                'iduser'   => $iduser,
+                'idmonde'   => $idmonde
+            );
+            $this->db->insert('vote', $data);
+        } catch (Exception $e) {
+            throw new Exception($e->getMessage());
+        }
+
+    }
+
 
 
     public function ficheEtudiant($param){
