@@ -15,6 +15,7 @@ class Utilisateur extends CI_Controller {
         {
             $this->form_validation->set_rules('mail', 'Email', 'trim|required|min_length[4]|max_length[30]');
             $this->form_validation->set_rules('pass', 'Mot de passe', 'trim|required|min_length[2]|alpha_dash');
+            $data['redirection'] = "";
             if ($this->form_validation->run())
             {
                 $login=$this->input->post('mail');
@@ -25,11 +26,13 @@ class Utilisateur extends CI_Controller {
                     redirect('Accueil');
                 }catch(Exception $e){
                     $data['error'] = "email ou mot de passe incorrect";
-                    $this->load->view('login',$data);
+                    $data['contents'] = "login";
+                    $this->load->view('default',$data);
                 }
             }
             else{
-                $this->load->view('login');
+                $data['contents'] = "login";
+                $this->load->view('default',$data);
             }
         }
         else{
@@ -44,26 +47,34 @@ class Utilisateur extends CI_Controller {
 //        }
         if (!$this->session->has_userdata('mail'))
         {
-            $this->form_validation->set_rules('nom', 'Nom', 'trim|required|min_length[1]');
-            $this->form_validation->set_rules('prenom', 'Prenom', 'trim|required|min_length[1]');
-            $this->form_validation->set_rules('mail', 'Email', 'trim|required|min_length[4]|max_length[30]');
-            $this->form_validation->set_rules('pass', 'Mot de passe', 'trim|required|min_length[2]|alpha_dash');
-            $this->form_validation->set_rules('confirm_pass', 'Confirm Password', 'required|matches[pass]');
+            $this->form_validation->set_rules('nom_ins', 'Nom', 'trim|required|min_length[1]');
+            $this->form_validation->set_rules('prenom_ins', 'Prenom', 'trim|required|min_length[1]');
+            $this->form_validation->set_rules('mail_ins', 'Email', 'trim|required|min_length[4]|max_length[30]');
+            $this->form_validation->set_rules('pass_ins', 'Mot de passe', 'trim|required|min_length[2]|alpha_dash');
+            $this->form_validation->set_rules('confirm_pass', 'Confirm Password', 'required|matches[pass_ins]');
+            $data['redirection'] = "";
             if ($this->form_validation->run())
             {
-                $nom=$this->input->post('nom');
-                $prenom=$this->input->post('prenom');
-                $login=$this->input->post('mail');
-                $pass=$this->input->post('pass');
+                $nom=$this->input->post('nom_ins');
+                $prenom=$this->input->post('prenom_ins');
+                $login=$this->input->post('mail_ins');
+                $pass=$this->input->post('pass_ins');
                 try{
-//                    $this->UtilisateurDao->save($nom,$prenom,$login,$pass);
+                    $this->UtilisateurDao->save($nom,$prenom,$login,$pass);
+                    $data['contents'] = "login";
+                    $data['redirection'] = "#login";
+                    $this->load->view('default',$data);
                 }catch(Exception $e){
                     $data['error'] = "Erreur lors de l'inscription de l'utilisateur.";
-                    $this->load->view('inscription',$data);
+                    $data['contents'] = "login";
+                    $data['redirection'] = "#inscription";
+                    $this->load->view('default',$data);
                 }
             }
             else{
-                $this->load->view('inscription');
+                $data['contents'] = "login";
+                $data['redirection'] = "#inscription";
+                $this->load->view('default',$data);
             }
         }
         else{
