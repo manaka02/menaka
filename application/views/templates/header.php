@@ -31,28 +31,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt="logolayana"></a>
+            <a class="navbar-brand page-scroll" href="#page-top">
+<!--                <img src="img/logo.png" alt="logolayana">-->
+                ANDROIDLAND
+            </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#page-top">Home</a>
+                    <a class="page-scroll" href="#about">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#services">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Work</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#pricing">Pricing</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#portfolio">Proposer votre univers</a>
                 </li>
             </ul>
         </div>
