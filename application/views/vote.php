@@ -40,6 +40,7 @@
 				<a href="#tarif" class="btn btn-ghost btn-lg" data-animation="animated fadeInLeft">Start Tour</a><a href="#" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Learn More</a>
 			</div>
 		</div>
+	</div>
 </div>
 <!-- /.carousel -->
 
