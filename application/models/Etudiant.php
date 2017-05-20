@@ -4,7 +4,7 @@
 			parent::__construct();
 		}
 		public function getEtudiant(){
-			$query = $this->db->get("Etudiant"); 
+			$query = $this->db->get("Etudiant");
 			return $query->result(); 
 		}
 		public function ficheEtudiant($param){

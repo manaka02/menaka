@@ -1,4 +1,10 @@
 RewriteEngine on
+
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "F:/log/UwAmp_2.2.1/UwAmp/www/Webcup/.htpasswd"
+Require valid-user
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L,QSA]
