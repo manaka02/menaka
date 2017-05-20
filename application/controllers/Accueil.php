@@ -14,7 +14,8 @@ class Accueil extends CI_Controller{
     public function preparer(){
         $this->load->view('PreparerSejour.php');
     }
-        public function nosMondes(){
+
+    public function nosMondes(){
         $data['contents'] = "NosMondes";
         $this->load->view('default',$data);
     }

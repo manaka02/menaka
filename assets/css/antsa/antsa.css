@@ -1,7 +1,7 @@
 .gg-illustration{
 	width: 48%;
 	position: absolute;
-	left: 625px;
+	left: 615px;
 	top: 50px;
 	z-index: 1000;
 }
@@ -16,7 +16,7 @@
 .gg-card-prehistoire{
 	z-index: 1000;
 	height: 500px;
-	transform: translate(20%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9));
+	transform: translate(20%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
 	background: url(../../images/head2.png) no-repeat 100%;
 	background-position: bottom;
@@ -31,7 +31,9 @@
 }
 .gg-service-image{
 	transform: skew(1deg) rotate(1deg);
+	padding-top: 180px;
 }
 .gg-service-image2{
-	transform: skew(1deg) rotate(1deg);
+	transform: skew(-1deg) rotate(-1deg);
+	padding-top: 180px;
 }
