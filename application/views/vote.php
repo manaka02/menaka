@@ -1,0 +1,193 @@
+
+<link rel="stylesheet" href="<?= base_url() ?>assets/css/animate.min.css" type="text/css">
+
+<!-- Section Intro Slider
+================================================== -->
+<div id="carousel-example-generic" class="carousel intro slide">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	</ol>
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<!-- First slide -->
+		<div class="item active" style="background-image:url(<?= base_url() ?>assets/img/futuristic-lab.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated bounceInDown">
+					Trois nouveaux mondes &agrave; l'horizon ! Batissons les ensemble </h2>
+				<h1 data-animation="animated bounceInUp">
+					Android Land</h1>
+			</div>
+		</div>
+		<div class="item" style="background-image:url(<?= base_url() ?>assets/img/futuristic-lab-2.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated bounceInDown">
+					Trois nouveaux mondes &agrave; l'horizon ! Batissons les ensemble </h2>
+				<h1 data-animation="animated bounceInUp">
+					Android Land</h1>
+			</div>
+		</div>
+		<div class="item" style="background-image:url(<?= base_url() ?>assets/img/futuristic-lab-3.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated bounceInDown">
+					Trois nouveaux mondes &agrave; l'horizon ! Batissons les ensemble </h2>
+				<h1 data-animation="animated bounceInUp">
+					Android Land</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /.carousel -->
+
+<!-- Section About
+================================================== -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				<h2 class="section-heading">PROPOSEZ NOUS VOS <br/>BONNES <br> <b>ID&Eacute;ES</b></h2>
+				<hr>
+				<p>
+					Pour toujours plus vous faire r&eacute;ver &eacute;veill&eacute;, de nouveaux univers sont dans nos plans! Mais ces &eacute;poques ne pourront se faire sans vous.
+					<br> Pour cela, proposez nous vos plus grandes imaginations !
+					Mais seules les trois suggestions les plus acclam&eacute;es seront r&eacute;alis&eacute;es !
+					Partagez donc au maximum votre id&eacute;e et elle aura les plus grandes chances d'&ecirc;tre v&eacute;cue !
+				</p>
+
+				<div class="regularform">
+					<div class="done">
+						<div class="alert alert-success">
+							<button type="button" class="close" data-dismiss="alert">×</button>
+							Votre billet a bien &eacute;t&eacute; enregistr&eacute;!
+						</div>
+					</div>
+					<form method="post" action="contact.php" id="contactform" class="text-left">
+						<input name="nom" type="text" class="col-md-12" placeholder="L'&egrave;re de votre r&egrave;ve *">
+						<textarea name="description" class="col-md-12" placeholder="Une description de vos de votre d&eacute;sir *"></textarea>
+						<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="Proposer">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Section Team
+================================================== -->
+<section class="no-padding">
+	<div class="col-md-4 bg-primary no-padding teambox">
+		<div class="team-thumb overlay-image view-overlay">
+			<img src="<?= base_url() ?>assets/img/malagasy-fahiny-carre.jpg" alt="" class="img-responsive">
+			<div class="mask team_quote">
+				<div class="port-zoom-link">
+					<p>
+						Its is great to work in such company, some other projects will be started in the same format!
+					</p>
+				</div>
+			</div>
+		</div>
+		<h2>BEVERLY GARCIA</h2>
+		<p>
+			VOLUNTEER WORK
+		</p>
+		<div class="team-social">
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-google-plus"></i></a>
+			<a href="#"><i class="fa fa-skype"></i></a>
+		</div>
+	</div>
+	<div class="col-md-4 bg-dark no-padding teambox">
+		<div class="team-thumb overlay-image view-overlay">
+			<img src="<?= base_url() ?>assets/img/prehistoire-carre.jpg" alt="" class="img-responsive">
+			<div class="mask team_quote">
+				<div class="port-zoom-link">
+					<p>
+						Its is great to work in such company, some other projects will be started in the same format!
+					</p>
+				</div>
+			</div>
+		</div>
+		<h2>MARY LACOSTE</h2>
+		<p>
+			LAYANA FOUNDER
+		</p>
+		<div class="team-social">
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-google-plus"></i></a>
+			<a href="#"><i class="fa fa-skype"></i></a>
+		</div>
+	</div>
+	<div class="col-md-4 bg-primary no-padding teambox">
+		<div class="team-thumb overlay-image view-overlay">
+			<img src="<?= base_url() ?>assets/img/seconde-guerre-mondiale-carre.jpg" alt="" class="img-responsive">
+			<div class="mask team_quote">
+				<div class="port-zoom-link">
+					<p>
+						Its is great to work in such company, some other projects will be started in the same format!
+					</p>
+				</div>
+			</div>
+		</div>
+		<h2>CAROL STEPHENS</h2>
+		<p>
+			PUBLIC RELATIONS
+		</p>
+		<div class="team-social">
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-google-plus"></i></a>
+			<a href="#"><i class="fa fa-skype"></i></a>
+		</div>
+	</div>
+</section>
+<div class="clearfix">
+</div>
+<!-- Section About
+================================================== -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				<h2 class="section-heading">PROPOSEZ NOUS VOS <br/>BONNES <br> <b>ID&Eacute;ES</b></h2>
+				<hr>
+				<p>
+					Pour toujours plus vous faire r&eacute;ver &eacute;veill&eacute;, de nouveaux univers sont dans nos plans! Mais ces &eacute;poques ne pourront se faire sans vous.
+					<br> Pour cela, proposez nous vos plus grandes imaginations !
+					Mais seules les trois suggestions les plus acclam&eacute;es seront r&eacute;alis&eacute;es !
+					Partagez donc au maximum votre id&eacute;e et elle aura les plus grandes chances d'&ecirc;tre v&eacute;cue !
+				</p>
+
+				<div class="regularform">
+					<div class="done">
+						<div class="alert alert-success">
+							<button type="button" class="close" data-dismiss="alert">×</button>
+							Votre billet a bien &eacute;t&eacute; enregistr&eacute;!
+						</div>
+					</div>
+					<form method="post" action="contact.php" id="contactform" class="text-left">
+						<input name="nom" type="text" class="col-md-12" placeholder="L'&egrave;re de votre r&egrave;ve *">
+						<textarea name="description" class="col-md-12" placeholder="Une description de vos de votre d&eacute;sir *"></textarea>
+						<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="Proposer">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script src="<?= base_url('assets/js/jquery.js')?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.min.js')?>"></script>
+<script src="<?= base_url() ?>assets/js/angular.min.js"></script>
+<script src="<?= base_url() ?>assets/js/parallax.js"></script>
+<script src="<?= base_url() ?>assets/js/contact.js"></script>
+<script src="<?= base_url() ?>assets/js/countto.js"></script>
+<script src="<?= base_url() ?>assets/js/jquery.easing.min.js"></script>
+<script src="<?= base_url() ?>assets/js/wow.min.js"></script>
+<script src="<?= base_url() ?>assets/js/common.js"></script>
