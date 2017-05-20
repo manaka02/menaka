@@ -8,8 +8,7 @@ class Accueil extends CI_Controller{
 
     public function index(){
         $data['content'] = "message d'accueil";
-        $this->load->view('templates/header.php');
-        $this->load->view('accueil',$data);
-        $this->load->view('templates/footer.php');
+        $data['contents'] = "accueil";
+        $this->load->view('default',$data);
     }
 }
