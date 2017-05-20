@@ -141,7 +141,7 @@
 
 <!-- Section Contact
 ================================================== -->
-<section id="contact">
+<section id="billet">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center">
@@ -261,7 +261,7 @@
 
 <!-- Section Contact
 ================================================== -->
-<section id="contact">
+<section id="sejour">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center">

@@ -70,6 +70,9 @@
 .gg-album{
     background: #3B1451;
 }
+.gg-bg{
+    background: url("img/tour-bg.png") fixed;
+}
 .gg-box{
     min-height: 350px;
     margin-bottom: 5px;

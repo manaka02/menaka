@@ -1,10 +1,9 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="<?php echo base_url(); ?>assets/css/antsa/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?php echo base_url(); ?>assets/css/antsa/antsa.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/antsa/lightGallery.css" type="text/css" media="all" />
 <link href="<?php echo base_url(); ?>assets/css/antsa/font-awesome.css" rel="stylesheet">
 
-<div class="">
+<div class="gg-bg">
     <div class="services gg-head" id="services">
         <div class="services-agile-w3l">
             <div class="clearfix"> </div>
@@ -32,14 +31,6 @@
                         eget tincidunt suscipit. Integer vitae ex eros. Cras ornare dignissim
                         scelerisque.</p>
                 </div>
-                <div class="col-md-6 agileits_banner_bottom_grid_r">
-                    <div class="agileits_banner_btm_grid_r">
-                        <img src="images/ab.jpg" alt=" " class="img-responsive">
-                        <div class="agileits_banner_btm_grid_r_pos">
-                            <img src="images/ab1.jpg" alt=" " class="img-responsive">
-                        </div>
-                    </div>
-                </div>
                 <div class="clearfix"> </div>
             </div>
         </div>
@@ -55,7 +46,7 @@
 
         </div>
 
-    <div class="w3-card w3-white gg-card-war">
+    <div class="w3-card w3-white gg-card-war gg-attraction">
         <div class="container-fluid">
             <div class="row agileits_banner_bottom_grid_l" style="text-align: center">
                 <h4>VIVEZ LA SECONDE GUERRE MONDIALE !</h4>
@@ -69,8 +60,6 @@
             </div>
         </div>
     </div>
-
-    <div class="about"></div>
 
     <!--    <div class="section">-->
     <div class="services gg-service-image2" id="services" style="">
@@ -94,9 +83,6 @@
             </div>
         </div>
     </div>
-
-    <div class="about"></div>
-
     <!--    <div class="section">-->
     <div class="services gg-service-image" id="services" style="">
         <h3 class="w3l_head w3l_head1">Word War II</h3>
