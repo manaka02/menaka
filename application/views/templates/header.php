@@ -34,16 +34,16 @@
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">Nos Univers</a>
+                    <a class="gg-menu" href="#about">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Preparer votre séjour</a>
+                    <a class="gg-menu" href="#services">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Proposer votre univers</a>
+                    <a class="gg-menu" href="#portfolio">Proposer votre univers</a>
                 </li>
             </ul>
         </div>

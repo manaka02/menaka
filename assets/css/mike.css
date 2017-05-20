@@ -1,3 +1,31 @@
+/**Header**/
+.gg-nav a:hover{
+    color : #000000!important;
+    background: #512f50!important;
+}
+.gg-nav a:active{
+    color : #000000!important;
+    background: #512f50!important;
+}
+.gg-nav a:focus{
+    color : #000000!important;
+    background: #512f50!important;
+}
+.navbar{
+    margin-bottom: 0 !important;
+}
+.gg-menu{
+    height: 60px !important;
+    line-height: 30px !important;
+    color: #fff !important;
+    margin-left: 5px;
+    background: #3B1451;
+}
+.gg-menu :hover{
+
+}
+
+
 .gg-title{
     text-align: center;
     position: relative;
