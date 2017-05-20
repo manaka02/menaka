@@ -470,6 +470,8 @@
 	</div>
 </section>
 
+<script src="<?= base_url('assets/js/jquery.js')?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.min.js')?>"></script>
 <script src="<?= base_url() ?>assets/js/angular.min.js"></script>
 <script src="<?= base_url() ?>assets/js/parallax.js"></script>
 <script src="<?= base_url() ?>assets/js/contact.js"></script>
