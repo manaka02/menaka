@@ -11,14 +11,14 @@
     <link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Jura:300,400,500,600" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <div class="w3-navigation">
 
 
     <!-- banner -->
     <div class="banner">
         <div class="elmt-illustration col-sm-12">
-            <img src="<?php echo base_url(); ?>assets/images/details/capitaine.png" alt="" class="pull-left">
+            <img src="<?php echo base_url(); ?>assets/images/details/miaramila-gasy.png" alt="" class="pull-left">
         </div>
         <!--Slider-->
         <div class="slider">
@@ -31,10 +31,10 @@
                         <div class="slider-info col-sm-10">
                             <div class="container">
                                 <div class="port-head">
-                                    <h1 class="w3l_head w3l_head1 text-warning">World War II</h1>
+                                    <h1 class="w3l_head w3l_head1 text-warning">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p>Vivez comme vous le voulez</p></li>
+                                            <li><p> comme vous le vouleVivezz</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
                                             <li><p>Anéantissons ensemble le mal</p> </li>
                                         </ul>
@@ -48,12 +48,12 @@
                     </li>
                     <li>
                         <div class="slider-img">
-                            <img src="<?php echo base_url(); ?>assets/images/details/ww2.jpg" class="img-responsive" alt="Fantasy World">
+                            <img src="<?php echo base_url(); ?>assets/images/details/ww2.jpg" class="img-responsive " alt="Fantasy World">
                         </div>
                         <div class="slider-info col-sm-10">
                             <div class="container">
                                 <div class="port-head">
-                                    <h1 class="w3l_head w3l_head1 text-warning">World War II</h1>
+                                    <h1 class="w3l_head w3l_head1 text-warning">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
                                             <li><p>Vivez comme vous le voulez</p></li>
@@ -73,7 +73,7 @@
                         <div class="slider-info col-sm-10">
                             <div class="container">
                                 <div class="port-head">
-                                    <h1 class="w3l_head w3l_head1 text-warning text-right">World War II</h1>
+                                    <h1 class="w3l_head w3l_head1 text-warning text-right">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
                                             <li><p>Vivez comme vous le voulez</p></li>
@@ -131,7 +131,7 @@
 
             <div class="agileits_banner_bottom_grids">
                 <div class="col-md-6 agileits_banner_bottom_grid_l">
-                    <h4>Aliquam a nunc non erat lobortis</h4>
+                    <h4>Vivez les traditions malgaches par vos propres sens</h4>
                     <p><i>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
                             Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.</i>Nullam sodales rutrum nisl, gravida porttitor lectus porta et.
                         Duis purus arcu, semper at magna faucibus, elementum maximus ligula.
@@ -141,7 +141,7 @@
                 </div>
                 <div class="col-md-6 agileits_banner_bottom_grid_r">
                     <div class="agileits_banner_btm_grid_r" style="top: -140px;">
-                        <img src="<?php echo base_url(); ?>assets/images/details/tank.png" alt=" " class="img-responsive">
+                        <img src="<?php echo base_url(); ?>assets/images/details/viavy-gasy.png" alt=" " class="img-responsive w3-sepia-max">
                         <div class="agileits_banner_btm_grid_r_pos">
                             <!--                            <img src="images/ab1.jpg" alt=" " class="img-responsive">-->
                         </div>
