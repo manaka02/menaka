@@ -1,45 +1,61 @@
-<script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 
-<script src="<?php echo base_url(); ?>assets/js/antsa/responsiveslides.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/antsa/move-top.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/antsa/easing.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/antsa/lightGallery.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function($) {
-        $(".scroll").click(function(event){
-            event.preventDefault();
-            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-        });
-    });
-</script>
-<script src="<?php echo base_url(); ?>assets/js/antsa/owl.carousel.js"></script>
-<link href="<?php echo base_url(); ?>assets/css/antsa/owl.theme.css" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/antsa/owl.carousel.css" type="text/css" media="all">
-<script>
-    $(document).ready(function() {
-        $("#owl-demo").owlCarousel({
-
-            autoPlay: 3000, //Set AutoPlay to 3 seconds
-            autoPlay : true,
-            navigation :true,
-
-            items : 4,
-            itemsDesktop : [640,5],
-            itemsDesktopSmall : [414,4]
-
-        });
-
-    });
-</script>
-
+<!-- Section Social
+================================================== -->
+<section id="social" class="parallax parallax-image" style="background-image:url(<?= base_url() ?>assets/img/landscape-war.jpg);">
+    <div class="overlay" style="background:#222;opacity:0.5;">
+    </div>
+    <div class="wrapsection">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="row wow fadeInLeft">
+                    <div class="col-md-3">
+                        <div class="funfacts text-center">
+                            <div class="icon">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </div>
+                            <h4>Twitter</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="funfacts text-center">
+                            <div class="icon">
+                                <a href="https://www.facebook.com/GraceGeekWebCup2k17/"><i class="fa fa-facebook"></i></a>
+                            </div>
+                            <h4>Facebook</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="funfacts text-center">
+                            <div class="icon">
+                                <a href="#"><i class="fa fa-google"></i></a>
+                            </div>
+                            <h4>Google</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="funfacts text-center">
+                            <div class="icon">
+                                <a href="#"><i class="fa fa-wordpress"></i></a>
+                            </div>
+                            <h4>Blog</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clearfix">
+</div>
+<!-- Section Footer
+================================================== -->
 <section class="bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1 class="bottombrand wow flipInX">Layana</h1>
+                <h1 class="bottombrand wow flipInX">AndroidLand</h1>
                 <p>
-                    &copy; 2016 Bootstrap HTML Template by WowThemes.net
+                    &copy; 2017 Grace Geek - #WebCup2k17
                 </p>
             </div>
         </div>
