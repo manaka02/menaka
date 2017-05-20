@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="<?= base_url() ?>assets/css/w3.css">
 <link href="<?php echo base_url(); ?>assets/css/antsa/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="<?php echo base_url(); ?>assets/css/antsa/antsa.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/antsa/lightGallery.css" type="text/css" media="all" />
