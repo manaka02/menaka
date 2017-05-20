@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?= base_url('assets/css/mike.css')?>">
 <div class="section">
     <div class="video-bg">
         <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
@@ -81,13 +82,110 @@
         <div class="gg-title">
             <div class="gg-wiered-border">
                 <div class="gg-box-title">
-                    <h2>Découvrir nos Univers</h2>
+                    <h2>Rien de mieux que des photos</h2>
                     <p class="gg-subtitle">
-                        Venez découvrir des sensation inoubliable
+                        Pour vous faire rêver
                     </p>
                 </div>
             </div>
             <img src="<?= base_url('assets/img/tour-icon1.png') ?>" alt="Illustration titre découvrir">
+        </div>
+        <div class="gg-album-container">
+            <div class="container-fluid">
+                <div class="row no-gutter">
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/15222605/beauty-354565_1280-450x300.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="https://s3-eu-west-1.amazonaws.com/layanademo/woman-983967_640.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160348/woman-919047_1280-450x300.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/18160911/woman-659352_1280-450x300.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a href="#" class="portfolio-box">
+                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/15222605/woman-918614_1280-449x300.jpg" class="img-responsive" alt="">
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-category text-faded">
+                                        Category
+                                    </div>
+                                    <div class="project-name">
+                                        Project Name
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 </div>
