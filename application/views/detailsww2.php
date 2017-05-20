@@ -1,4 +1,5 @@
 
+
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/toavina.css">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
     function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -9,12 +10,13 @@
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 
+
 <div class="w3-navigation">
 
 
         <!-- banner -->
         <div class="banner">
-            <div class="elmt-illustration col-sm-12" style="left: -50px;">
+            <div class="elmt-illustration col-sm-12">
                 <img src="<?php echo base_url(); ?>assets/images/details/capitaine.png" alt="" class="pull-left">
             </div>
             <!--Slider-->

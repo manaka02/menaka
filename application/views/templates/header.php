@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>Accueil</title>
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css')?>" type="text/css">
     <!-- Custom Fonts -->
@@ -13,6 +15,7 @@
     <!--Custom Css-->
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/gg-style.css')?>">
+    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -28,28 +31,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt="logolayana"></a>
+            <a class="navbar-brand page-scroll" href="#page-top">
+<!--                <img src="img/logo.png" alt="logolayana">-->
+                ANDROIDLAND
+            </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#page-top">Home</a>
+                    <a class="gg-menu" href="#about">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="gg-menu" href="#services">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Work</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#pricing">Pricing</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="gg-menu" href="#portfolio">Proposer votre univers</a>
                 </li>
             </ul>
         </div>

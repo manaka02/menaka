@@ -26,4 +26,8 @@ class Accueil extends CI_Controller{
         $data['contents'] = "NosMondes";
         $this->load->view('default',$data);
     }
+    public function vote(){
+        $data['contents'] = "vote";
+        $this->load->view('default',$data);
+    }
 }
