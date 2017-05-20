@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="<?= base_url() ?>assets/css/animate.min.css" type="text/css">
 
 <!-- Section Intro Slider
@@ -70,112 +69,26 @@
 					</form>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-
-<!-- Section Team
-================================================== -->
-<section class="no-padding">
-	<div class="col-md-4 bg-primary no-padding teambox">
-		<div class="team-thumb overlay-image view-overlay">
-			<img src="<?= base_url() ?>assets/img/malagasy-fahiny-carre.jpg" alt="" class="img-responsive">
-			<div class="mask team_quote">
-				<div class="port-zoom-link">
-					<p>
-						Its is great to work in such company, some other projects will be started in the same format!
-					</p>
-				</div>
-			</div>
-		</div>
-		<h2>BEVERLY GARCIA</h2>
-		<p>
-			VOLUNTEER WORK
-		</p>
-		<div class="team-social">
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-linkedin"></i></a>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-google-plus"></i></a>
-			<a href="#"><i class="fa fa-skype"></i></a>
-		</div>
-	</div>
-	<div class="col-md-4 bg-dark no-padding teambox">
-		<div class="team-thumb overlay-image view-overlay">
-			<img src="<?= base_url() ?>assets/img/prehistoire-carre.jpg" alt="" class="img-responsive">
-			<div class="mask team_quote">
-				<div class="port-zoom-link">
-					<p>
-						Its is great to work in such company, some other projects will be started in the same format!
-					</p>
-				</div>
-			</div>
-		</div>
-		<h2>MARY LACOSTE</h2>
-		<p>
-			LAYANA FOUNDER
-		</p>
-		<div class="team-social">
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-linkedin"></i></a>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-google-plus"></i></a>
-			<a href="#"><i class="fa fa-skype"></i></a>
-		</div>
-	</div>
-	<div class="col-md-4 bg-primary no-padding teambox">
-		<div class="team-thumb overlay-image view-overlay">
-			<img src="<?= base_url() ?>assets/img/seconde-guerre-mondiale-carre.jpg" alt="" class="img-responsive">
-			<div class="mask team_quote">
-				<div class="port-zoom-link">
-					<p>
-						Its is great to work in such company, some other projects will be started in the same format!
-					</p>
-				</div>
-			</div>
-		</div>
-		<h2>CAROL STEPHENS</h2>
-		<p>
-			PUBLIC RELATIONS
-		</p>
-		<div class="team-social">
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-linkedin"></i></a>
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-google-plus"></i></a>
-			<a href="#"><i class="fa fa-skype"></i></a>
-		</div>
-	</div>
-</section>
-<div class="clearfix">
-</div>
-<!-- Section About
-================================================== -->
-<section id="about">
-	<div class="container">
-		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 text-center">
-				<h2 class="section-heading">PROPOSEZ NOUS VOS <br/>BONNES <br> <b>ID&Eacute;ES</b></h2>
+				<h2 class="section-heading">LES <b>IDEES</b> ID&Eacute;ES D&Eacute;J&Agrave; SOUMISES</h2>
 				<hr>
-				<p>
-					Pour toujours plus vous faire r&eacute;ver &eacute;veill&eacute;, de nouveaux univers sont dans nos plans! Mais ces &eacute;poques ne pourront se faire sans vous.
-					<br> Pour cela, proposez nous vos plus grandes imaginations !
-					Mais seules les trois suggestions les plus acclam&eacute;es seront r&eacute;alis&eacute;es !
-					Partagez donc au maximum votre id&eacute;e et elle aura les plus grandes chances d'&ecirc;tre v&eacute;cue !
-				</p>
-
-				<div class="regularform">
-					<div class="done">
-						<div class="alert alert-success">
-							<button type="button" class="close" data-dismiss="alert">×</button>
-							Votre billet a bien &eacute;t&eacute; enregistr&eacute;!
+				<!--/.Card-->
+				<div class="w3-card w3-white row">
+					<div class="media col-sm-8">
+						<div class="media-left media-middle">
+							<img src="img_avatar1.png" class="media-object" style="width:80px">
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Media Middle</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>
-					<form method="post" action="contact.php" id="contactform" class="text-left">
-						<input name="nom" type="text" class="col-md-12" placeholder="L'&egrave;re de votre r&egrave;ve *">
-						<textarea name="description" class="col-md-12" placeholder="Une description de vos de votre d&eacute;sir *"></textarea>
-						<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="Proposer">
-					</form>
+					<div class="col-sm-4 text-center row">
+						<h3><i><b>3</b></i> Vote(s)</h3>
+						<a href="#" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</a>
+					</div>
 				</div>
 			</div>
 		</div>
