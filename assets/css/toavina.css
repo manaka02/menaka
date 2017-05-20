@@ -1,0 +1,11 @@
+body{
+    background-color: #d8d8d8;
+}
+
+.elmt-illustration{
+    width: 48%;
+    position: absolute;
+
+    top: 50px;
+    z-index: 1000;
+}
