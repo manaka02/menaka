@@ -8,7 +8,7 @@
 .gg-card-war{
 	z-index: 1000;
 	height: 500px;
-	transform: translate(260%,-90%) perspective(800px) rotateX(10deg) scale(1.1,1.1);
+	transform: translate(220%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
 	background: url(../../images/head.png) no-repeat 100%;
 	background-position: bottom;
@@ -16,7 +16,7 @@
 .gg-card-prehistoire{
 	z-index: 1000;
 	height: 500px;
-	transform: translate(260%,-90%) perspective(800px) rotateX(10deg) scale(1.1,1.1);
+	transform: translate(20%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9));
 	width: 400px;
 	background: url(../../images/head2.png) no-repeat 100%;
 	background-position: bottom;
@@ -24,11 +24,14 @@
 .gg-card-madagascar{
 	z-index: 1000;
 	height: 500px;
-	transform: translate(260%,-90%) perspective(800px) rotateX(10deg) scale(1.1,1.1);
+	transform: translate(220%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
 	background: url(../../images/head.png) no-repeat 100%;
 	background-position: bottom;
 }
 .gg-service-image{
-	transform: skew(2deg) rotate(2deg);
+	transform: skew(1deg) rotate(1deg);
+}
+.gg-service-image2{
+	transform: skew(1deg) rotate(1deg);
 }

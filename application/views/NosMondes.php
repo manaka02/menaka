@@ -67,7 +67,7 @@
     <div class="about"></div>
 
     <!--    <div class="section">-->
-    <div class="services gg-service-image" id="services" style="padding-top: 180px;">
+    <div class="services gg-service-image2" id="services" style="padding-top: 180px;">
         <h3 class="w3l_head w3l_head1">Word War II</h3>
         <p class="w3ls_head_para w3ls_head_para1">Visitez !</p>
         <div class="services-agile-w3l">

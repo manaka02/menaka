@@ -1,0 +1,221 @@
+.gg-title{
+    text-align: center;
+    position: relative;
+}
+.gg-title h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    transform: skew(5deg) rotate(3deg);
+}
+.gg-title p{
+    transform: skew(5deg) rotate(3deg);
+}
+.gg-wiered-border{
+    width: 400px;
+    display: inline-block;
+    -webkit-transform: translate(0, -40%);
+    -moz-transform: translate(0, -40%);
+    -ms-transform: translate(0, -40%);
+    -o-transform: translate(0, -40%);
+    transform: translate(0, -40%);
+}
+.gg-box-title{
+    width: inherit;
+    display: inline-block;
+    background: #ffffff;
+    transform: skew(-5deg) rotate(-3deg);
+}
+.gg-title img{
+    position: absolute;
+    height: 115px;
+    -webkit-transform: translate(-30%, -45%);
+    -moz-transform: translate(-30%, -45%);
+    -ms-transform: translate(-30%, -45%);
+    -o-transform: translate(-30%, -45%);
+    transform: translate(-30%, -45%);
+}
+.gg-attraction{
+    padding: 20px 30px 20px 30px;
+    background: url(img/slider-bg.png) center top fixed;
+    background-size: cover;
+}
+.gg-album{
+    background: #000;
+}
+.gg-box{
+    min-height: 350px;
+    margin-bottom: 5px;
+    background-size: cover;
+    border-radius: 50%;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    transition: all .2s ease;
+}
+.gg-mg{
+    background: url(img/malagasy-fahiny-1.jpg) center top;
+}
+.gg-primal{
+    background: url(img/prehistoire.jpg) center top;
+}
+.gg-guerre{
+    background: url("img/seconde-guerre-mondiale.jpg");
+}
+.gg-mg:hover, .gg-primal:hover{
+    background: url("img/seconde-guerre-mondiale.jpg");
+}
+.gg-guerre:hover{
+    background: url("img/prehistoire.jpg");
+}
+.bg{
+    height: 300px;
+    background: url(img/footer.png) 0 100% repeat-x;
+    position: relative;
+    z-index: -1;
+}
+
+.price-tag{
+    position: relative;
+    height: auto;
+    background: url(img/footer.png) 0 100% repeat-x;
+}
+.pricing {
+    min-height: 400px;
+    left: 50%;
+    top: 50%;
+    /* margin-left: 50%; */
+    text-align: center;
+    transform: translate(0, -9.1%);
+    -webkit-transform: translate(0, -9.1%);
+    -moz-transform: translate(0, -9.1%);
+    -ms-transform: translate(0, -9.1%);
+    -o-transform: translate(0, -9.1%);
+    /* width: 310px; */
+    font-size: 0;
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+
+.price-option {
+    display: inline-block;
+    width: 18.25em;
+    vertical-align: middle;
+    margin-right: 0.5125em;
+    font-size: 16px;
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+
+.price-option:last-child {
+    margin-right: 0;
+}
+
+.pricing:hover .price-option {
+    opacity: 0.9;
+}
+
+.pricing:hover .price-option:hover {
+    opacity: 1;
+}
+
+.price-option__detail {
+    padding: 2em 0;
+    min-height: 300px;
+    background: white;
+    text-align: center;
+}
+
+.price-option--low .price-option__detail {
+    border-radius: .25em 0 0 0;
+}
+
+.price-option--mid .price-option__detail {
+    padding: 2.3em 0;
+    border-radius: .25em .25em 0 0;
+}
+
+.price-option--high .price-option__detail {
+    border-radius: 0 .25em 0 0;
+}
+
+.price-option__cost,
+.price-option__type {
+    display: block;
+}
+
+.price-option__cost {
+    font-size: 1.5em;
+    color: #383838;
+}
+
+.price-option__type {
+    font-size: .7em;
+    text-transform: uppercase;
+    color: #909090;
+}
+
+.price-option__purchase {
+    position: relative;
+    display: block;
+    padding: .6em;
+    font-size: .875em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.price-option--low .price-option__purchase {
+    background: #a7d155;
+    border-radius: 0 0 0 .25em;
+}
+
+.price-option--mid .price-option__purchase {
+    background: #eada42;
+    border-radius: 0 0 .25em .25em;
+}
+
+.price-option--high .price-option__purchase {
+    background: #e54e4b;
+    border-radius: 0 0 .25em 0;
+}
+
+.price-option__purchase:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-style: solid;
+}
+
+.price-option--low .price-option__purchase:before {
+    border-color: transparent transparent #a7d155;
+}
+
+.price-option--mid .price-option__purchase:before {
+    border-color: transparent transparent #eada42;
+}
+
+.price-option--high .price-option__purchase:before {
+    border-color: transparent transparent #e54e4b;
+}
+
+video{
+    width : 100%;
+}
+.video-bg{
+    height: 600px ;
+    overflow: hidden;
+}
+@media only screen and (max-width:768px) {
+    .video-bg{
+        height: 100%;
+    }
+}
