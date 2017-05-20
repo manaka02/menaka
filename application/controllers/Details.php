@@ -9,18 +9,18 @@ class Details extends CI_Controller{
     public function index(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsww2";
-        $this->load->view('detailsww2',$data);
+        $this->load->view('default',$data);
     }
 
     public function gasy(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsww2";
-        $this->load->view('detailsgasy',$data);
+        $this->load->view('default',$data);
     }
 
     public function prehistoire(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsph";
-        $this->load->view('detailsph',$data);
+        $this->load->view('default',$data);
     }
 }

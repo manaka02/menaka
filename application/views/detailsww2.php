@@ -1,11 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/toavina.css">
 
 
@@ -16,35 +8,16 @@
     <!-- gallery -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/details/lightGallery.css" type="text/css" media="all" />
     <!-- //gallery -->
-    <!-- font-awesome icons -->
-    <link href="<?php echo base_url(); ?>assets/css/details/font-awesome.css" rel="stylesheet">
-
-    <!-- //font-awesome icons -->
     <link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Jura:300,400,500,600" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-</head>
-<body>
 
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">AndroidLand</a>
-        </div>
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-        </ul>
-    </div>
-</nav>
 <div class="w3-navigation">
 
 
         <!-- banner -->
         <div class="banner">
-            <div class="elmt-illustration col-sm-12" style="left: -50px;">
+            <div class="elmt-illustration col-sm-12">
                 <img src="<?php echo base_url(); ?>assets/images/details/capitaine.png" alt="" class="pull-left">
             </div>
             <!--Slider-->
