@@ -14,10 +14,9 @@
     <!-- //for-mobile-apps -->
     <link href="<?php echo base_url(); ?>assets/css/details/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- gallery -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/details/lightGallery.css" type="text/css" media="all" />
+<!--    <link rel="stylesheet" href="--><?php //echo base_url(); ?><!--assets/css/details/lightGallery.css" type="text/css" media="all" />-->
     <!-- //gallery -->
     <!-- font-awesome icons -->
-    <link href="<?php echo base_url(); ?>assets/css/details/font-awesome.css" rel="stylesheet">
 
     <!-- //font-awesome icons -->
     <link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
@@ -361,7 +360,7 @@
 </script>
 <!-- start-smoth-scrolling -->
 <!-- //js -->
-<script src="<?php echo base_url(); ?>assets/js/details/bootstrap.js"></script>
+
 <!-- //for bootstrap working -->
 <!-- here stars scrolling icon -->
 <script type="text/javascript">
