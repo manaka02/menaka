@@ -84,6 +84,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     -ms-transition: all 0.2s ease 0s;
 }
 /*-- nav --*/
+/*
 .navbar-default {
     background: none;
     border: none;
@@ -126,6 +127,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
 .navbar-nav > li:nth-child(6) a {
         margin-right:0px!important;
 }
+*/
 .w3_navigation_pos {
        position: absolute;
     top: 24%;
