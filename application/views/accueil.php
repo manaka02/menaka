@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="<?= base_url('assets/css/mike.css')?>">
 <div class="section">
     <div class="video-bg">
         <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
@@ -52,27 +51,27 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-mg">
                     <div class="gg-btn">
-                        <div class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('details/gasy')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-primal">
                     <div class="gg-btn">
-                        <div class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('details')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-guerre">
                     <div class="gg-btn">
-                        <div class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('details/prehistoire')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
