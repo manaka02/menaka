@@ -1,16 +1,10 @@
-
-
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/toavina.css">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
     function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="<?php echo base_url(); ?>assets/css/details/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="//fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Jura:300,400,500,600" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
-
-
+<!-- gallery -->
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/details/lightGallery.css" type="text/css" media="all" />
 <div class="w3-navigation">
 
 
@@ -351,4 +345,3 @@
 
     });
 </script>
-
