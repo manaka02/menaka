@@ -98,7 +98,7 @@ $db['default'] = array(
 
 $db['test'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => '10.2.43.91',
 	'username' => 'root',
 	'password' => 'root',
 	'database' => 'grace',
