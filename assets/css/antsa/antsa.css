@@ -1,8 +1,7 @@
 .gg-illustration{
-	width: 48%;
 	position: absolute;
 	left: 615px;
-	top: 166px;
+	top: 93px;
 	z-index: 1000;
 }
 .gg-card-war{
@@ -39,5 +38,4 @@
 }
 .gg-head{
 	padding-top: 265px;
-	margin-top: 73px;
 }

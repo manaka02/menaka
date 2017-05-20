@@ -1,28 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>Layana - HTML Bootstrap Theme</title>
-	<!-- Bootstrap Core CSS -->
-	<link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.min.css" type="text/css">
-	<!-- Custom Fonts -->
-	<link rel="stylesheet" href="<?= base_url() ?>assets/font-awesome/css/font-awesome.min.css" type="text/css">
-	<!-- Plugin CSS -->
-	<link rel="stylesheet" href="<?= base_url() ?>assets/css/animate.min.css" type="text/css">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="<?= base_url() ?>assets/css/adri.css" type="text/css">
-	<link rel="stylesheet" href="<?= base_url() ?>assets/css/gg-style.css" type="text/css">
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body id="page-top">
+
+<link rel="stylesheet" href="<?= base_url() ?>assets/css/animate.min.css" type="text/css">
 
 <!-- Section Intro Slider
 ================================================== -->
@@ -164,7 +141,7 @@
 
 <!-- Section Contact
 ================================================== -->
-<section id="contact">
+<section id="billet">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center">
@@ -180,23 +157,25 @@
 							Votre billet a bien &eacute;t&eacute; enregistr&eacute;!
 						</div>
 					</div>
-					<form method="post" action="contact.php" id="contactform" class="text-left">
-						<select name="name" type="text" class="col-md-6 norightborder" id="selectedbillet" required>
+					<form method="post" action="<?php echo base_url(); ?>Ticket/ajouter"  class="text-left">
+						<input type="hidden" name="type" value="1">
+						<input type="hidden" name="iduser" value="<?php echo $idUser; ?>">
+						<select name="tarif" type="text" class="col-md-6 norightborder" id="selectedbillet" required>
 							<option disabled selected>Votre Tarif *</option>
-							<option value="1">Time Traveller</option>
-							<option value="2">Thief of Time</option>
-							<option value="3">Junior</option>
+							<?php foreach ($listeTarifs as $tarif){ ?>
+								<option value="<?php echo $tarif->idtarif; ?>"><?php echo $tarif->designation; ?></option>
+							<?php } ?>
 						</select>
-						<select name="name" type="text" class="col-md-6 norightborder" placeholder="Votre tarif *">
+						<select name="monde" type="text" class="col-md-6 norightborder" placeholder="Votre tarif *" required>
 							<option disabled selected>L'Epoque *</option>
-							<option>Toutes</option>
-							<option>Pr&eacute;histoire</option>
-							<option>Seconde guerre mondiale</option>
-							<option>Royaut&eacute; malgache</option>
+							<?php foreach ($listeMonde as $monde){ ?>
+								<option value="<?php echo $monde->idmonde; ?>"><?php echo $monde->designation; ?></option>
+							<?php } ?>
+
 						</select>
-						<input name="quantite" type="number" class="col-md-4" placeholder="Quantite *">
-						<input name="date" type="date" class="col-md-8" placeholder="Date *">
-						<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="Acheter">
+						<input name="quantite" type="number" class="col-md-4" placeholder="Nombre de personne *" min="1" required>
+						<input name="date" type="date" class="col-md-8" placeholder="Date *" required>
+						<input type="submit" id="test" class="contact submit btn btn-primary btn-xl" value="Acheter">
 					</form>
 				</div>
 			</div>
@@ -282,7 +261,7 @@
 
 <!-- Section Contact
 ================================================== -->
-<section id="contact">
+<section id="sejour">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center">
@@ -298,23 +277,24 @@
 							Votre r&eacute;servation de s&eacute;jour a bien &eacute;t&eacute; enregistr&eacute;!
 						</div>
 					</div>
-					<form method="post" action="contact.php" id="contactform" class="text-left">
-						<select name="name" type="text" class="col-md-6 norightborder" id="selectedbillet" required>
+					<form method="post" action="<?php echo base_url(); ?>Ticket/ajouter" id="contactform" class="text-left">
+						<input type="hidden" name="type" value="2">
+						<input type="hidden" name="iduser" value="<?php echo $idUser; ?>">
+						<select name="tarif" type="text" class="col-md-6 norightborder" id="selectedbillet" required>
 							<option disabled selected>Votre Tarif *</option>
-							<option value="1">Time Traveller</option>
-							<option value="2">Thief of Time</option>
-							<option value="3">Junior</option>
+							<?php foreach ($listeTarifs as $tarif){ ?>
+								<option value="<?php echo $tarif->idtarif; ?>"><?php echo $tarif->designation; ?></option>
+							<?php } ?>
 						</select>
-						<select name="name" type="text" class="col-md-6 norightborder" placeholder="Votre tarif *">
+						<select name="monde" type="text" class="col-md-6 norightborder" placeholder="Votre tarif *" required>
 							<option disabled selected>L'Epoque *</option>
-							<option>Toutes</option>
-							<option>Pr&eacute;histoire</option>
-							<option>Seconde guerre mondiale</option>
-							<option>Royaut&eacute; malgache</option>
+							<?php foreach ($listeMonde as $monde){ ?>
+								<option value="<?php echo $monde->idmonde; ?>"><?php echo $monde->designation; ?></option>
+							<?php } ?>
 						</select>
-						<input name="quantite" type="number" class="col-md-4" placeholder="Nombre de personne *">
-						<input name="date" type="date" class="col-md-4" placeholder="Date *">
-						<input name="datefin" type="date" class="col-md-4" placeholder="Date de fin *">
+						<input name="quantite" type="number" class="col-md-4" placeholder="Nombre de personne *" min="1" required>
+						<input name="date" type="date" class="col-md-4" placeholder="Date de début *" required>
+						<input name="datefin" type="date" class="col-md-4" placeholder="Date de fin *" required>
 						<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="R&eacute;server">
 					</form>
 				</div>
