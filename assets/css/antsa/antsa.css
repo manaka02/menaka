@@ -1,13 +1,18 @@
+.about{
+	padding: 0;
+	padding-bottom: 5em;
+}
 .gg-illustration{
+	width: 48%;
 	position: absolute;
 	left: 615px;
-	top: 93px;
+	top: 36px;
 	z-index: 1000;
 }
 .gg-card-war{
 	z-index: 1000;
 	height: 500px;
-	transform: translate(220%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
+	transform: translate(220%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
 	background: url(../../images/head.png) no-repeat 100%;
 	background-position: bottom;
@@ -15,7 +20,7 @@
 .gg-card-prehistoire{
 	z-index: 1000;
 	height: 500px;
-	transform: translate(20%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
+	transform: translate(20%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
 	background: url(../../images/head2.png) no-repeat 100%;
 	background-position: bottom;
@@ -23,16 +28,22 @@
 .gg-card-madagascar{
 	z-index: 1000;
 	height: 500px;
-	transform: translate(220%,-90%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
+	transform: translate(220%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
 	background: url(../../images/head.png) no-repeat 100%;
 	background-position: bottom;
 }
 .gg-service-image{
+	position: absolute;
+	left:0;
+	right: 0;
 	transform: skew(1deg) rotate(1deg);
 	padding-top: 180px;
 }
 .gg-service-image2{
+	position: absolute;
+	left:0;
+	right: 0;
 	transform: skew(-1deg) rotate(-1deg);
 	padding-top: 180px;
 }
