@@ -61,7 +61,5 @@
         </div>
     </div>
 </section>
-
-<!-- jQuery -->
 </body>
 </html>
