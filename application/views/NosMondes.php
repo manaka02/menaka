@@ -156,5 +156,3 @@
 
     });
 </script>
-</body>
-</html>
