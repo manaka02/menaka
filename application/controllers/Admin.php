@@ -25,6 +25,7 @@ class Admin extends CI_Controller{
         $crud->set_relation('idtype', 'type', 'designation');
         $output = $crud->render();
 
+        $data['number'] = $this->Monde_model->getNumberRowsAll();
         $data['name'] = 'ticket';
         $data['output'] = (array)$output;
         $data['contents'] = 'insert_aide';
@@ -37,6 +38,7 @@ class Admin extends CI_Controller{
         $crud = new grocery_CRUD();
         $crud->set_table('tarif');
         $output = $crud->render();
+        $data['number'] = $this->Monde_model->getNumberRowsAll();
         $data['name'] = 'tarifs';
         $data['output'] = (array)$output;
         $data['contents'] = 'insert_aide';
@@ -50,6 +52,7 @@ class Admin extends CI_Controller{
         $crud->set_table('monde');
         $crud->set_relation('createur', 'user', 'nom');
         $output = $crud->render();
+        $data['number'] = $this->Monde_model->getNumberRowsAll();
         $data['name'] = 'mondes';
         $data['output'] = (array)$output;
         $data['contents'] = 'insert_aide';
@@ -62,6 +65,7 @@ class Admin extends CI_Controller{
         $crud = new grocery_CRUD();
         $crud->set_table('user');
         $output = $crud->render();
+        $data['number'] = $this->Monde_model->getNumberRowsAll();
         $data['name'] = 'utilisateurs';
         $data['output'] = (array)$output;
         $data['contents'] = 'insert_aide';

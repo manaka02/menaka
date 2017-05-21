@@ -16,7 +16,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="<?php echo base_url(); ?>assets/css/admin/style.css" rel='stylesheet' type='text/css' />
     <!-- Graph CSS -->
     <link href="<?php echo base_url(); ?>assets/css/admin/lines.css" rel='stylesheet' type='text/css' />
-    <link href="<?php echo base_url(); ?>assets/css/admin/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- jQuery -->
     <script src="<?php echo base_url(); ?>assets/js/admin/jquery.min.js"></script>
     <!----webfonts--->
@@ -44,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/index.php/Home">AndroidLand - Admin</a>
+            <a class="navbar-brand" href="<?php echo base_url(); ?>Admin">AndroidLand - Admin</a>
         </div>
         <!-- /.navbar-header -->
         <ul class="nav navbar-nav navbar-right">
@@ -100,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="/index.php/Home"><i class="fa fa-dashboard fa-fw nav_icon"></i>Dashboard</a>
+                        <a href="<?php echo base_url(); ?>Admin"><i class="fa fa-dashboard fa-fw nav_icon"></i>Dashboard</a>
                     </li>
 
 
@@ -139,7 +139,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-thumbs-up icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>500</strong></h5>
+                      <h5><strong><?php echo $number['ticket']; ?></strong></h5>
                       <span>Billets vendus</span>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-users user1 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>358</strong></h5>
+                      <h5><strong><?php echo $number['user']; ?></strong></h5>
                       <span>Clients</span>
                     </div>
                 </div>
@@ -157,8 +157,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-comment user2 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>142</strong></h5>
-                      <span>Sejours</span>
+                      <h5><strong><?php echo $number['monde']; ?></strong></h5>
+                      <span>Mondes</span>
                     </div>
                 </div>
         	</div>
@@ -166,7 +166,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-dollar dollar1 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>1452</strong></h5>
+                      <h5><strong><?php echo $number['vote']; ?></strong></h5>
                       <span>Votes</span>
                     </div>
                 </div>

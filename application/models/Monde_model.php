@@ -63,6 +63,15 @@ class Monde_model extends CI_Model{
 
     }
 
+    public function getNumberRowsAll(){
+        $data['monde'] = $this->db->count_all('monde');
+        $data['ticket'] = $this->db->count_all('ticket');
+        $data['user'] = $this->db->count_all('user');
+        $data['vote'] = $this->db->count_all('vote');
+
+        return $data;
+    }
+
 
 
     public function ficheEtudiant($param){
