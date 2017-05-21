@@ -127,12 +127,10 @@
             <div class="agileits_banner_bottom_grids">
                 <div class="col-md-6 agileits_banner_bottom_grid_l">
                     <h4>Vivez les traditions malgaches par vos propres sens</h4>
-                    <p><i>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-                            Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.</i>Nullam sodales rutrum nisl, gravida porttitor lectus porta et.
-                        Duis purus arcu, semper at magna faucibus, elementum maximus ligula.
-                        Etiam imperdiet posuere odio gravida vehicula. Nulla consectetur massa
-                        eget tincidunt suscipit. Integer vitae ex eros. Cras ornare dignissim
-                        scelerisque.</p>
+                    <p><i>Madagascar, cher visiteur, est un pays qui regorge de plus de culture que tu ne peux le croire.</i>
+                    Revivre dans son ère d'antan t'enrichira d'autant plus car elle possède 18 ethnies toutes aussi différentes l'une de l'autre.
+                    Ne t'arretes donc pas aux Merina! Va voir les Antandroy, dans le Sud, ou les Antakarana au Nord en passant par les Antaimoro à l'Est ou par l'Ouest chez les Mahafaly.
+                    De toute facon, n'importe où où tu iras, je te garantie aucune déception</p>
                 </div>
                 <div class="col-md-6 agileits_banner_bottom_grid_r">
                     <div class="agileits_banner_btm_grid_r" style="top: -140px;">
@@ -152,7 +150,7 @@
 
         <div class="port-head">
             <h1 class="text-center">Details</h1>
-            <p class="w3ls_head_para w3ls_head_para1">Vivez comme vous le voulez</p>
+            <p class="w3ls_head_para w3ls_head_para1">Vivez le comme vous le voulez</p>
         </div>
         <div class="col-sm-10 col-sm-offset-3">
             <iframe width="560" height="315" src="https://www.youtube.com/watch?v=0JvIqmWZI_4" frameborder="0" allowfullscreen></iframe>
@@ -173,41 +171,41 @@
                 <div id="owl-demo" class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s1.jpg" alt="" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/s1.jpg" alt="mpanakanto" />
                             <div class="projects-grid-caption">
 
-                                <h4>Troupe malagasy</h4>
-                                <p>Lorem ipsum</p>
+                                <h4>Mpihira gasy, un Mpana kanto</h4>
+                                <p>Un musicien traditionnel, accompagné de son instrument traditionnel</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s2.jpg" alt="" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/andriana.jpg" alt="" />
                             <div class="projects-grid-caption">
 
-                                <h4>Nazis</h4>
-                                <p>Lorem ipsum</p>
+                                <h4>Une Andriana</h4>
+                                <p>La caste noble malagasy</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s3.jpg" alt="" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/patriarche.jpg" alt="patriarche-malagasy" />
                             <div class="projects-grid-caption">
 
-                                <h4>Russe</h4>
-                                <p>Lorem ipsum</p>
+                                <h4>Un patriarche malagasy</h4>
+                                <p>L'homme le plus sage du village. Tous les enfants attendent ses Angano tous les soirs</p>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s4.jpg" alt="" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/soldat-malgache.jpg" alt="" />
                             <div class="projects-grid-caption">
 
-                                <h4>Americains</h4>
-                                <p>Lorem ipsum</p>
+                                <h4>Soldat malagasy</h4>
+                                <p>Un soldat aider le souverain à conquerir un territoire</p>
                             </div>
                         </div>
                     </div>
@@ -217,16 +215,6 @@
                             <div class="projects-grid-caption">
 
                                 <h4>Juifs</h4>
-                                <p>Lorem ipsum</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s6.jpg" alt="" />
-                            <div class="projects-grid-caption">
-
-                                <h4>Survivant</h4>
                                 <p>Lorem ipsum</p>
                             </div>
                         </div>
