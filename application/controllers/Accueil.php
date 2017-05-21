@@ -15,6 +15,14 @@ class Accueil extends CI_Controller{
 
     }
 
+    public function insertMonde(){
+        $designation = $this->input->post('designation');
+        $description = $this->input->post('description');
+        $data['tarifs'] = $this->Monde_model->insertMonde($designation, $description, 1);
+
+        redirect('Accueil/NouveauMonde');
+    }
+
     public function Preparer(){
         $listeMonde = $this->Monde_model->allModel('monde', 'statut', '1');
         $listeTarifs = $this->Monde_model->allModel('tarif');
@@ -34,9 +42,10 @@ class Accueil extends CI_Controller{
     public function NouveauMonde(){
         $data['ajoutVote'] = 0;
         $data['contents'] = "vote";
+        $data['listeMonde'] = $this->Monde_model->allModel("monde",'statut','0');
         $data['titre'] = "Proposer un nouvel univers";
         $this->load->view('default',$data);
-    }
+    }   
     public function effectuerVote($id = '',$iduser = ''){
         $vote = $this->Monde_model->getVoteParid($id,$iduser);
         if(isset($user)){

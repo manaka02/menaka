@@ -62,10 +62,10 @@
 							Votre billet a bien &eacute;t&eacute; enregistr&eacute;!
 						</div>
 					</div>
-					<form method="post" action="contact.php" id="contactform" class="text-left">
-						<input name="nom" type="text" class="col-md-12" placeholder="L'&egrave;re de votre r&egrave;ve *">
-						<textarea name="description" class="col-md-12" placeholder="Une description de vos de votre d&eacute;sir *"></textarea>
-						<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="Proposer">
+					<form method="post" action="<?= base_url() ?>Accueil/insertMonde"class="text-left">
+						<input name="designation" type="text" class="col-md-12" placeholder="L'&egrave;re de votre r&egrave;ve *" required>
+						<textarea name="description" class="col-md-12" placeholder="Une description de vos de votre d&eacute;sir *" required></textarea>
+						<input type="submit" class="contact submit btn btn-primary btn-xl" value="Proposer">
 					</form>
 				</div>
 			</div>
@@ -74,18 +74,20 @@
 				<hr>
 				<!--/.Card-->
 				<div ng-controller="myCtrl">
+					<?php  foreach($listeMonde as $monde) { ?>
+
 					<div class="w3-card w3-white row" ng-repeat="lt in listeVote">
 						<div class="media col-sm-8">
 							<div class="media-left media-middle">
-								<img src="img_avatar1.png" class="media-object" style="width:80px">
+								<img src="<?= base_url() ?>assets/img/point.png" class="media-object" style="width:80px">
 							</div>
 							<div class="media-body">
-								<h4 class="media-heading">{{lt.designation}}</h4>
-								<p>{{lt.description}}</p>
+								<h4 class="media-heading"><?php echo $monde->designation; ?></h4>
+								<p><?php echo $monde->description; ?></p>
 							</div>
 						</div>
 						<div class="col-sm-4 text-center row">
-							<h3><i><b>{{lt.totalvote + <?= $ajoutVote ?>}}</b></i> Vote(s)</h3>
+							<h3><i><b>5 </b></i> Vote(s)</h3>
 							<?php if(isset($_SESSION["user"])){ ?>
 								<button ng-click="myFunction('{{lt.idmonde}}','{{lt.iduser}}')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
 							<?php }else{ ?>
@@ -93,6 +95,27 @@
 							<?php } ?>
 						</div>
 					</div>
+					<?php } ?>
+
+<!--					<div class="w3-card w3-white row" ng-repeat="lt in listeVote">-->
+<!--						<div class="media col-sm-8">-->
+<!--							<div class="media-left media-middle">-->
+<!--								<img src="img_avatar1.png" class="media-object" style="width:80px">-->
+<!--							</div>-->
+<!--							<div class="media-body">-->
+<!--								<h4 class="media-heading">{{lt.designation}}</h4>-->
+<!--								<p>{{lt.description}}</p>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="col-sm-4 text-center row">-->
+<!--							<h3><i><b>{{lt.totalvote + --><?//= $ajoutVote ?><!--}}</b></i> Vote(s)</h3>-->
+<!--							--><?php //if(isset($_SESSION["user"])){ ?>
+<!--								<button ng-click="myFunction('{{lt.idmonde}}','{{lt.iduser}}')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>-->
+<!--							--><?php //}else{ ?>
+<!--								<a href="--><?php //echo base_url(); ?><!--Utilisateur" id="test" class="btn btn-primary btn-lg" value="">Veuillez-vous connecter pour en acheter</a>-->
+<!--							--><?php //} ?>
+<!--						</div>-->
+<!--					</div>-->
 				</div>
 			</div>
 		</div>

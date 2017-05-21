@@ -27,7 +27,7 @@ class Monde_model extends CI_Model{
             'designation'   => $designation,
             'description'   => $description,
             'statut'   => 0,
-            'iduser'   => $iduser
+            'createur'   => $iduser
         );
         $this->db->insert('monde', $data);
     }
