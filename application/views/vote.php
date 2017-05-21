@@ -86,8 +86,8 @@
 						</div>
 					</div>
 					<div class="col-sm-4 text-center row"  ng-app="myApp" ng-controller="myCtrl">
-						<h3><i><b>{{vote}}</b></i> Vote(s)</h3>
-						<button ng-click="myFunction('<?= 1 ?>')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
+						<h3><i><b>{{vote + <?= $ajoutVote ?>}}</b></i> Vote(s)</h3>
+						<button ng-click="myFunction('<?= 1 ?>','<?= 1 ?>')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
 					</div>
 				</div>
 			</div>
@@ -109,13 +109,10 @@
 		var app = angular.module('myApp', []);
 		app.controller('myCtrl', function($scope,$http) {
 			$scope.vote = 3;
-			$scope.myFunction = function(id) {
-				if($scope.vote > 4){
-					$scope.vote = $scope.vote-2;
-				}
-				$http.get("<?= base_url() ?>Accueil/effectuerVote/"+id)
+			$scope.myFunction = function(id,iduser) {
+				$http.get("<?= base_url() ?>Accueil/effectuerVote/"+id+"/"+iduser)
 					.then(function(response) {
-						$scope.vote = $scope.vote+1;
+//						$scope.vote = $scope.vote+1;
 					}),(function(error) {
 //					$scope.myWelcome = response.data;
 					});

@@ -58,7 +58,7 @@ class Monde_model extends CI_Model{
                     'idvote' => '',
                     'iduser'   => $user.iduser,
                     'idmonde'   => $idmonde,
-                    'valeur'  => 0
+                    'valeur'  => 1
                 );
                 $this->db->insert('vote', $data);
             } catch (Exception $e) {
@@ -67,20 +67,19 @@ class Monde_model extends CI_Model{
         }
     }
 
-    public function updateVote($idmonde, $valeur){
-        $user = $this->$this->session->userdata('user');
+    public function updateVote($idmonde, $iduser, $valeur){
         try {
             $data = array(
-                'valeur' => $valeur*(-1)
+                'valeur' => $valeur-1
         );
-            $this->db->where(array('iduser' => $user.iduser,'idmonde' => $idmonde));
+            $this->db->where(array('iduser' => $iduser,'idmonde' => $idmonde));
             $this->db->update("user",$data);
         } catch (Exception $e) {
             throw new Exception($e->getMessage());
         }
     }
 
-    public function getVoteParId($idmonde){
+    public function getVoteParId($idmonde,$iduser){
         try {
             $query = $this->db->get_where('vote',array('iduser' => $iduser, 'idmonde' => $idmonde));
             return $query->result();
