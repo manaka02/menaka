@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">
+            <a class="navbar-brand page-scroll" href="<?= base_url(); ?>Accueil/">
 <!--                <img src="img/logo.png" alt="logolayana">-->
                 ANDROIDLAND
             </a>

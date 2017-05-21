@@ -41,7 +41,7 @@
                 <div class="gg-box-title">
                     <h2>Découvrir nos Univers</h2>
                     <p class="gg-subtitle">
-                        Venez découvrir des sensation inoubliable
+                        Venez découvrir des sensations inoubliables
                     </p>
                 </div>
             </div>

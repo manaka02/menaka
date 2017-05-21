@@ -64,14 +64,14 @@
 }
 .gg-attraction{
     padding: 20px 30px 20px 30px;
-    background: url(img/slider-bg.png) center top fixed;
+    background: url(../img/slider-bg.png) center top fixed;
     background-size: cover;
 }
 .gg-album{
     background: #3B1451;
 }
 .gg-bg{
-    background: url("img/tour-bg.png") fixed;
+    background: url("../img/tour-bg.png") fixed;
 }
 .gg-box{
     min-height: 350px;
@@ -85,23 +85,26 @@
     transition: all .2s ease;
 }
 .gg-mg{
-    background: url(img/malagasy-fahiny-1.jpg) center top;
+    background: url(../img/malagasy-fahiny-1.jpg) center top;
 }
 .gg-primal{
-    background: url(img/prehistoire.jpg) center top;
+    background: url(../img/prehistoire.jpg) center top;
 }
 .gg-guerre{
-    background: url("img/seconde-guerre-mondiale.jpg");
+    background: url("../img/second-war-logo.jpg");
 }
-.gg-mg:hover, .gg-primal:hover{
-    background: url("img/seconde-guerre-mondiale.jpg");
+.gg-mg:hover{
+    background: url("../img/gasy-royalty-logo.jpg");
+}
+.gg-primal:hover{
+    background: url("../img/prehistory-logo.jpg");
 }
 .gg-guerre:hover{
-    background: url("img/prehistoire.jpg");
+    background: url("../img/prehistoire.jpg");
 }
 .bg{
     height: 300px;
-    background: url(img/footer.png) 0 100% repeat-x;
+    background: url(../img/footer.png) 0 100% repeat-x;
     position: relative;
     z-index: -1;
 }
@@ -109,7 +112,7 @@
 .price-tag{
     position: relative;
     height: auto;
-    background: url(img/footer.png) 0 100% repeat-x;
+    background: url(../img/footer.png) 0 100% repeat-x;
 }
 .pricing {
     min-height: 400px;
