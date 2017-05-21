@@ -27,9 +27,9 @@
                                         <h1 class="w3l_head w3l_head1 text-warning">World War II</h1>
                                         <div>
                                             <ul class="list-unstyled">
-                                                <li><p>Vivez comme vous le voulez</p></li>
+                                                <li><p>Vivez l'ère comme vous le voulez</p></li>
                                                 <li><p>Venez vous battre à nos côtés</p></li>
-                                                <li><p>Anéantissons ensemble le mal</p> </li>
+                                                <li><p>Anéantissons ensemble l'ennemi</p> </li>
                                             </ul>
 
                                         </div>
@@ -49,9 +49,9 @@
                                         <h1 class="w3l_head w3l_head1 text-warning">World War II</h1>
                                         <div>
                                             <ul class="list-unstyled">
-                                                <li><p>Vivez comme vous le voulez</p></li>
+                                                <li><p>Vivez l'ère comme vous le voulez</p></li>
                                                 <li><p>Venez vous battre à nos côtés</p></li>
-                                                <li><p>Anéantissons ensemble le mal</p> </li>
+                                                <li><p>Anéantissons ensemble l'ennemi</p> </li>
                                             </ul>
 
                                         </div>
@@ -69,9 +69,9 @@
                                         <h1 class="w3l_head w3l_head1 text-warning text-right">World War II</h1>
                                         <div>
                                             <ul class="list-unstyled">
-                                                <li><p>Vivez comme vous le voulez</p></li>
+                                                <li><p>Vivez l'ère comme vous le voulez</p></li>
                                                 <li><p>Venez vous battre à nos côtés</p></li>
-                                                <li><p>Anéantissons ensemble le mal</p> </li>
+                                                <li><p>Anéantissons ensemble l'ennemi</p> </li>
                                             </ul>
 
                                         </div>
@@ -107,8 +107,8 @@
                     <h4 >Bienvenue dans le monde de la guerre</h4>
                     <p><i>Nous sommes en 1942, en plein milieu de la seconde guerre mondiale.
                             Le Chaos est partout, le monde est dévasté. </i>
-                        Je suis le Général Manaka. Je dirige une armée pour prvenir à la paix.
-                        Tu seras en ma protéction si  tu viens dans mon monde.
+                        Je suis le Général Mike. J'ai été formé à la guerre dès mon plus jeune âge. Je dirige une armée pour qui veut retrouver la paix d'autrefois
+                        Tu seras en ma protection une fois ici. Rejoins la bonne armée!
                        .</p>
                 </div>
 
@@ -124,13 +124,11 @@
 
             <div class="agileits_banner_bottom_grids">
                 <div class="col-md-6 agileits_banner_bottom_grid_l">
-                    <h4>Aliquam a nunc non erat lobortis</h4>
-                    <p><i>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-                            Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.</i>Nullam sodales rutrum nisl, gravida porttitor lectus porta et.
-                        Duis purus arcu, semper at magna faucibus, elementum maximus ligula.
-                        Etiam imperdiet posuere odio gravida vehicula. Nulla consectetur massa
-                        eget tincidunt suscipit. Integer vitae ex eros. Cras ornare dignissim
-                        scelerisque.</p>
+                    <h4>La Seconde Guerre mondiale</h4>
+                    <p><i>Ici, mon ami on ne voit que ça. La guerre partout.</i>
+                    Fais très attention à toi ici une fois que tu rejoins nos troupes. Je serai là pour veiller sur toi mais méfie toi de ceux à qui tu parles.
+                    Tu pourrais tomber sur quelqu'un qui ne te veut aucun bien et t'emmener chez l'ennemi pour être tué.
+                    Suis mes directives et tout ira pour le mieux</p>
                 </div>
                 <div class="col-md-6 agileits_banner_bottom_grid_r">
                     <div class="agileits_banner_btm_grid_r" style="top: -140px;">
@@ -150,10 +148,10 @@
 
             <div class="port-head">
                 <h1 class="text-center">Details</h1>
-                <p class="w3ls_head_para w3ls_head_para1">Vivez comme vous le voulez</p>
+                <p class="w3ls_head_para w3ls_head_para1">Vivez le comme vous le voulez</p>
             </div>
             <div class="col-sm-10 col-sm-offset-3">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tGj1Tw15Ng4" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/watch?v=pmTto632-QE" frameborder="0" allowfullscreen></iframe>
             </div>
     </div>
 
@@ -171,80 +169,60 @@
                         <div id="owl-demo" class="owl-carousel owl-theme">
                             <div class="item">
                                 <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s1.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>assets/images/details/general.jpg" alt="" />
                                     <div class="projects-grid-caption">
-
-                                        <h4>General de guerre</h4>
-                                        <p>Lorem ipsum</p>
+                                        <h4>Général de guerre</h4>
+                                        <p>Un leader dirigeant les troupes</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s2.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>assets/images/details/nazi.jpg" alt="" />
                                     <div class="projects-grid-caption">
 
                                         <h4>Nazis</h4>
-                                        <p>Lorem ipsum</p>
+                                        <p>Un nazi oppresseur</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s3.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>assets/images/details/russe.jpg" alt="" />
                                     <div class="projects-grid-caption">
 
                                         <h4>Russe</h4>
-                                        <p>Lorem ipsum</p>
+                                        <p>Un russe partenaire</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s4.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>assets/images/details/americain.jpg" alt="" />
                                     <div class="projects-grid-caption">
 
                                         <h4>Americains</h4>
-                                        <p>Lorem ipsum</p>
+                                        <p>Un américain pour la justice</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s5.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>assets/images/details/juif.jpg" alt="" />
                                     <div class="projects-grid-caption">
 
                                         <h4>Juifs</h4>
-                                        <p>Lorem ipsum</p>
+                                        <p>Un juif opprimé</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s6.jpg" alt="" />
+                                    <img src="<?php echo base_url(); ?>assets/images/details/survivant.jpg" alt="" />
                                     <div class="projects-grid-caption">
 
                                         <h4>Survivant</h4>
-                                        <p>Lorem ipsum</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s7.jpg" alt="" />
-                                    <div class="projects-grid-caption">
-
-                                        <h4>Fantasy World</h4>
-                                        <p>Lorem ipsum</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="projects-agile-grid-info">
-                                    <img src="<?php echo base_url(); ?>assets/images/details/s1.jpg" alt="" />
-                                    <div class="projects-grid-caption">
-                                        <h4>Fantasy World</h4>
-                                        <p>Lorem ipsum</p>
+                                        <p>Un survivant de guerre</p>
                                     </div>
                                 </div>
                             </div>

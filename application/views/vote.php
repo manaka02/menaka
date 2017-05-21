@@ -86,7 +86,11 @@
 						</div>
 						<div class="col-sm-4 text-center row">
 							<h3><i><b>{{lt.totalvote + <?= $ajoutVote ?>}}</b></i> Vote(s)</h3>
-							<button ng-click="myFunction('<?= 1 ?>','<?= 1 ?>')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
+							<?php if(isset($_SESSION["user"])){ ?>
+								<button ng-click="myFunction('{{lt.idmonde}}','{{lt.iduser}}')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
+							<?php }else{ ?>
+								<a href="<?php echo base_url(); ?>Utilisateur" id="test" class="btn btn-primary btn-lg" value="">Veuillez-vous connecter pour en acheter</a>
+							<?php } ?>
 						</div>
 					</div>
 				</div>
