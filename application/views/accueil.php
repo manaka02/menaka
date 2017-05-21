@@ -4,12 +4,20 @@
             <h1>Bienvenue à AndroidLand</h1>
             <p class="gg-landing-desc">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda autem blanditiis culpa dolore error fuga incidunt maxime minus natus nesciunt nostrum officiis optio porro quibusdam ratione vel, voluptate. Pariatur!
+                <div class="gg-title gg-title-reservation">
+                    <div class="gg-wiered-border">
+                        <div class="gg-box-title">
+                            <h2>Je plannifie déjà mon séjour</h2>
+                        </div>
+                    </div>
+                    <img src="<?= base_url('assets/img/tour-icon1.png') ?>" alt="Illustration titre découvrir">
+                </div>
             </p>
         </div>
         <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
 <!--           WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-            <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
-            <source src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4">
+<!--            <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">-->
+            <source src="<?= base_url('assets/video/video.mp4')?>" type="video/mp4">
         </video>
     </div>
 </div>

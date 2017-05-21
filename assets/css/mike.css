@@ -3,6 +3,7 @@
     color : rgba(0, 0, 0, 0.72) !important;
     background: #e7d9d9!important;
 }
+
 .gg-ariane{
     border-top: #e7d9d9 3px solid;
     height: 55px;
@@ -47,6 +48,14 @@
 .gg-title p{
     transform: skew(5deg) rotate(3deg);
 }
+.gg-title-reservation{
+    margin-top: 150px;
+    color: #000 !important;
+}
+.gg-title-reservation .gg-wiered-border{
+    margin-top: 150px;
+    color: #000 !important;
+}
 .gg-wiered-border{
     width: 400px;
     display: inline-block;
@@ -56,7 +65,17 @@
     -o-transform: translate(0, -40%);
     transform: translate(0, -40%);
 }
+
+.gg-title-reservation .gg-wiered-border{
+    -webkit-transform: translate(0, -220%);
+    -moz-transform: translate(0, -220%);
+    -ms-transform: translate(0, -220%);
+    -o-transform: translate(0, -220%);
+    transform: translate(0, -220%);
+}
+
 .gg-box-title{
+    padding: 5px 5px 0 5px;
     width: inherit;
     display: inline-block;
     background: #ffffff;

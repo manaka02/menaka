@@ -39,8 +39,8 @@
     </div>
 
 <!--    <div class="section">-->
-        <div class="services gg-service-image" id="services" style="">
-            <h3 class="w3l_head w3l_head1">World War IIs</h3>
+        <div class="services gg-service-image" id="services" style="background-image: url('<?= base_url('assets/img/nos-univers-ww2.jpg')?>')">
+            <h3 class="w3l_head w3l_head1">World War II</h3>
             <p class="w3ls_head_para w3ls_head_para1">Visitez !</p>
             <div class="services-agile-w3l">
                 <div class="clearfix"> </div>
@@ -52,10 +52,9 @@
         <div class="container-fluid">
             <div class="row agileits_banner_bottom_grid_l" style="text-align: center">
                 <h4>VIVEZ LA SECONDE GUERRE MONDIALE !</h4>
-                <p>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-                        Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.
+                <p>Citoyens, Soldat ou meme Ministre du Reich dans l'armée de ce fameux Adolf Hitler, vous en avez toujours rêvé. Venez donc vivre cette palpitante époque avec nous.
                 </p>
-                <a href="<?= base_url('details/GasyRoyalty')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
+                <a href="<?= base_url('Accueil/NosUnivers/WorldWarII')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
@@ -64,8 +63,8 @@
     </div>
 
     <!--    <div class="section">-->
-    <div class="services gg-service-image2" id="services" style="">
-        <h3 class="w3l_head w3l_head1">Word War II</h3>
+    <div class="services gg-service-image2" id="services" style="background-image: url('<?= base_url('assets/img/nos-univers-pre.jpg')?>')">
+        <h3 class="w3l_head w3l_head1">PreHistory</h3>
         <p class="w3ls_head_para w3ls_head_para1">Visitez !</p>
         <div class="services-agile-w3l">
             <div class="clearfix"> </div>
@@ -74,11 +73,10 @@
     <div class="w3-card w3-white gg-card-prehistoire">
         <div class="container-fluid">
             <div class="row agileits_banner_bottom_grid_l" style="text-align: center">
-                <h4>VIVEZ LA SECONDE GUERRE MONDIALE !</h4>
-                <p>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-                    Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.
+                <h4>VIVEZ LA PR&Eacute;HISTOIRE !</h4>
+                <p>La G&eacute;n&egrave;se vousconnaitre? Homo habilis, Homo erectus, ou les hommes de Néandertal, enrichissez vos connaissances avec nous et apprenez à faire du feu!
                 </p>
-                <a href="<?= base_url('details/WorldWarII')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
+                <a href="<?= base_url('Accueil/NosUnivers/PreHistoire')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
@@ -86,8 +84,8 @@
         </div>
     </div>
     <!--    <div class="section">-->
-    <div class="services gg-service-image" id="services" style="">
-        <h3 class="w3l_head w3l_head1">Word War II</h3>
+    <div class="services gg-service-image" id="services" style="background-image: url('<?= base_url('assets/img/nos-univers-gasy.jpg')?>')">
+        <h3 class="w3l_head w3l_head1">Gasy Royalty</h3>
         <p class="w3ls_head_para w3ls_head_para1">Visitez !</p>
         <div class="services-agile-w3l">
             <div class="clearfix"> </div>
@@ -97,10 +95,10 @@
         <div class="container-fluid">
             <div class="row agileits_banner_bottom_grid_l" style="text-align: center">
                 <h4>VIVEZ L'HISTOIRE DE MADAGASCAR !</h4>
-                <p>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-                    Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.
+                <p>Madagascar mon merveilleux pays, ne manque pas d'histoire.
+                    Soyez l'apprenti d'Andrianampoinimerina, ou même une de ses femmes, le choix est large, à vous de bien séléctionner le rôle à prendre
                 </p>
-                <a href="<?= base_url('details/Prehistory')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
+                <a href="<?= base_url('Accueil/NosUnivers/GasyRoyalty')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
