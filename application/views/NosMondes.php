@@ -40,7 +40,7 @@
 
 <!--    <div class="section">-->
         <div class="services gg-service-image" id="services" style="">
-            <h3 class="w3l_head w3l_head1">Word War II</h3>
+            <h3 class="w3l_head w3l_head1">World War IIs</h3>
             <p class="w3ls_head_para w3ls_head_para1">Visitez !</p>
             <div class="services-agile-w3l">
                 <div class="clearfix"> </div>
