@@ -74,7 +74,7 @@
                         </a>
                     </div>
                     <div class="gg-description">
-                        Guerre Mondiale
+                        Parc préhistorique
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                         </a>
                     </div>
                     <div class="gg-description">
-                        Parc préhistorique
+                        Guerre Mondiale
                     </div>
                 </div>
             </div>
