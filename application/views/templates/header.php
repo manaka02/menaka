@@ -23,7 +23,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="page-top">
+<body id="page-top" ng-app="myApp">
 <nav id="mainNav" class="navbar navbar-default">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,22 +34,29 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll gg-logo" href="<?= base_url('accueil')?>">
-                <img src="<?= base_url('assets/img/logo-AL.png')?>" alt="logolayana">
-                <p><span>Androïd</span>Land</p>
+            <a class="navbar-brand page-scroll" href="<?= base_url('Accueil')?>">
+<!--                <img src="img/logo.png" alt="logolayana">-->
+                ANDROIDLAND
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/NosUnivers')?>">Nos Univers</a>
+                    <a class="gg-menu" href="<?= base_url('Accueil/NosUnivers')?>">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/Preparer')?>">Preparer votre séjour</a>
+                    <a class="gg-menu" href="<?= base_url('Accueil/Preparer')?>">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/NouveauMonde')?>">Proposer votre univers</a>
+                    <a class="gg-menu" href="<?= base_url('Accueil/NouveauMonde')?>">Proposer votre univers</a>
+                </li>
+                <li>
+                    <?php if(isset($_SESSION["user"])){ ?>
+                        <a href="<?php echo base_url(); ?>Utilisateur/deconnexion" class="gg-menu">Deconnexion</a>
+                    <?php }else{ ?>
+                        <a href="<?php echo base_url(); ?>Utilisateur" class="gg-menu">Connectez-vous</a>
+                    <?php } ?>
                 </li>
             </ul>
         </div>
@@ -59,7 +66,7 @@
 <?php if(isset($titre)){?>
 <nav class="navbar navbar-default">
     <div class="gg-ariane">
-        <a href="<?= base_url('accueil')?>">Accueil</a> > <a href="<?= current_url()?>"><?=$titre?></a>
+        <a href="<?= base_url('Accueil')?>">Accueil</a> > <a href="<?= current_url()?>"><?=$titre?></a>
     </div>
 </nav>
 <?php }?>

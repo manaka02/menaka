@@ -16,9 +16,9 @@
 
     <div class="about" id="about">
 
-            <div class="agileits_banner_bottom_grids">
+            <div class="agileits_banner_bottom_grids" style="margin-top: 0px;">
                 <div class="container">
-                <div class="col-md-12 agileits_banner_bottom_grid_l">
+                <div class="col-md-12 agileits_banner_bottom_grid_l" style="padding-top: 30px">
                     <div class="agileits_about_left">
                         <h3 class="w3l_head">Bienvenue à Androidland</h3>
                         <p class="w3ls_head_para">Un monde à part</p>
@@ -54,7 +54,7 @@
                 <h4>VIVEZ LA SECONDE GUERRE MONDIALE !</h4>
                 <p>Citoyens, Soldat ou meme Ministre du Reich dans l'armée de ce fameux Adolf Hitler, vous en avez toujours rêvé. Venez donc vivre cette palpitante époque avec nous.
                 </p>
-                <a href="<?= base_url('details/WorldWarII')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
+                <a href="<?= base_url('Accueil/NosUnivers/WorldWarII')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
@@ -76,7 +76,7 @@
                 <h4>VIVEZ LA PR&Eacute;HISTOIRE !</h4>
                 <p>La G&eacute;n&egrave;se vousconnaitre? Homo habilis, Homo erectus, ou les hommes de Néandertal, enrichissez vos connaissances avec nous et apprenez à faire du feu!
                 </p>
-                <a href="<?= base_url('details/PreHistory')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
+                <a href="<?= base_url('Accueil/NosUnivers/PreHistory')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
@@ -98,7 +98,7 @@
                 <p>Madagascar mon merveilleux pays, ne manque pas d'histoire.
                     Soyez l'apprenti d'Andrianampoinimerina, ou même une de ses femmes, le choix est large, à vous de bien séléctionner le rôle à prendre
                 </p>
-                <a href="<?= base_url('details/GasyRoyalty')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
+                <a href="<?= base_url('Accueil/NosUnivers/GasyRoyalty')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>

@@ -52,11 +52,11 @@ class Monde_model extends CI_Model{
 
     public function insertVote($idmonde){
         if(is_numeric($idmonde)){
-        $user = $this->$this->session->userdata('user');
+            $user = $this->session->userdata('user');
             try {
                 $data = array(
                     'idvote' => '',
-                    'iduser'   => $user.iduser,
+                    'iduser'   => $user[0]->iduser,
                     'idmonde'   => $idmonde,
                     'valeur'  => 1
                 );
@@ -71,7 +71,7 @@ class Monde_model extends CI_Model{
         try {
             $data = array(
                 'valeur' => $valeur-1
-        );
+            );
             $this->db->where(array('iduser' => $iduser,'idmonde' => $idmonde));
             $this->db->update("user",$data);
         } catch (Exception $e) {
@@ -87,6 +87,11 @@ class Monde_model extends CI_Model{
             throw new Exception($e->getMessage());
         }
     }
+
+    public function getNumberRows($table){
+        return $this->db->count_all($table);
+    }
+
     public function getNumberRowsAll(){
         $data['monde'] = $this->db->count_all('monde');
         $data['ticket'] = $this->db->count_all('ticket');
@@ -95,6 +100,7 @@ class Monde_model extends CI_Model{
 
         return $data;
     }
+
 
 
     public function ficheEtudiant($param){

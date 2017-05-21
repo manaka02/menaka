@@ -7,9 +7,11 @@ class Accueil extends CI_Controller{
         $this->load->model('Monde_model');
     }
     public function index(){
+        $data['tarifs'] = $this->Monde_model->allModel('tarif');
         $data['content'] = "message d'accueil";
         $data['contents'] = "accueil";
         $this->load->view('default',$data);
+
     }
 
     public function Preparer(){
@@ -42,5 +44,8 @@ class Accueil extends CI_Controller{
             $this->Monde_model->insertVote($id);
         }
         $data['ajoutVote'] = $vote[0]->valeur;
+    }
+    public function listeVote(){
+        echo json_encode($this->Monde_model->getAllMonde());
     }
 }

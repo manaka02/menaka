@@ -27,9 +27,9 @@
                                     <h1 class="w3l_head w3l_head1 text-warning">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p> comme vous le vouleVivezz</p></li>
+                                            <li><p>Vivez le comme vous le voulez</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
-                                            <li><p>Anéantissons ensemble le mal</p> </li>
+                                            <li><p>Allons conquir le pays</p> </li>
                                         </ul>
 
                                     </div>
@@ -49,9 +49,9 @@
                                     <h1 class="w3l_head w3l_head1 text-warning">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p>Vivez comme vous le voulez</p></li>
+                                            <li><p>Vivez le comme vous le voulez</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
-                                            <li><p>Anéantissons ensemble le mal</p> </li>
+                                            <li><p>Allons conquir le pays</p> </li>
                                         </ul>
 
                                     </div>
@@ -69,9 +69,9 @@
                                     <h1 class="w3l_head w3l_head1 text-warning text-right">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p>Vivez comme vous le voulez</p></li>
+                                            <li><p>Vivez le comme vous le voulez</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
-                                            <li><p>Anéantissons ensemble le mal</p> </li>
+                                            <li><p>Allons conquir le pays</p> </li>
                                         </ul>
 
                                     </div>
@@ -105,11 +105,13 @@
                 <div class="col-md-8 agileits_banner_bottom_grid_l">
 
                     <h4 >Bienvenue dans le monde de la guerre</h4>
-                    <p><i>Nous sommes en 1942, en plein milieu de la seconde guerre mondiale.
-                            Le Chaos est partout, le monde est dévasté. </i>
-                        Je suis le Général Manaka. Je dirige une armée pour prvenir à la paix.
-                        Tu seras en ma protéction si  tu viens dans mon monde.
-                        .</p>
+                    <p><i>Nous sommes au XVII e siècle, sous le règne du roi Andrianampoinimerina.
+                            Notre roi ne cesse de vouloir conquérir Madagascar. </i>
+                        Je suis le guerrier Manaka. J'aide le roi à convaincre les territoires étrangères aux merina de le lui céder.
+                        Notre mpanjanka est le plus puissant.
+                        Aucun autre mpanjaka ne lui réussit! Rejoins nos troupe ! Sois des notres.
+                        Je te garderai en sécurité.
+                    </p>
                 </div>
 
                 <div class="clearfix"> </div>
