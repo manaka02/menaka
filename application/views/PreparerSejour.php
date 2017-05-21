@@ -204,7 +204,7 @@
 				</div>
 			</div>
 		</div>
-		<h2>CITE DES MILLES SOLDATS</h2>
+		<h2>CIT&Eacute; DES MILLES SOLDATS</h2>
 		<p>
 			Place du marché
 		</p>
@@ -241,7 +241,7 @@
 	</div>
 	<div class="col-md-4 bg-primary no-padding teambox">
 		<div class="team-thumb overlay-image view-overlay">
-			<img src="<?= base_url() ?>assets/img/ww2.jpg" alt="" class="img-responsive">
+			<img src="<?= base_url() ?>assets/img/landscape-war2.jpg" alt="" class="img-responsive">
 			<div class="mask team_quote">
 				<div class="port-zoom-link">
 					<p>

@@ -1,5 +1,6 @@
 RewriteEngine on
+RewriteLog "/var/log/apache2/rewrite.log"
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L,QSA]
-RewriteRule ^Accueil/NosUnivers/(.*)$  Details/$1 [L]
+RewriteRule ^Accueil/NosUnivers/(.*)$  /Details/$1 [L]
