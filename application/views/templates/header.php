@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Accueil</title>
+    <title><?= $titre?></title>
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css')?>" type="text/css">
     <!-- Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Mrs+Sheppards%7CDosis:300,400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800;' rel='stylesheet' type='text/css'>
@@ -23,7 +23,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="page-top" ng-app="myApp">
+<body id="page-top">
 <nav id="mainNav" class="navbar navbar-default">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,29 +34,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="<?= base_url('Accueil')?>">
-<!--                <img src="img/logo.png" alt="logolayana">-->
-                ANDROIDLAND
+            <a class="navbar-brand page-scroll gg-logo" href="<?= base_url('accueil')?>">
+                <img src="<?= base_url('assets/img/logo-AL.png')?>" alt="logolayana">
+                <p><span>Androïd</span>Land</p>
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="gg-menu" href="<?= base_url('Accueil/NosUnivers')?>">Nos Univers</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/NosUnivers')?>">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('Accueil/Preparer')?>">Preparer votre séjour</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/Preparer')?>">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('Accueil/NouveauMonde')?>">Proposer votre univers</a>
-                </li>
-                <li>
-                    <?php if(isset($_SESSION["user"])){ ?>
-                        <a href="<?php echo base_url(); ?>Utilisateur/deconnexion" class="gg-menu">Deconnexion</a>
-                    <?php }else{ ?>
-                        <a href="<?php echo base_url(); ?>Utilisateur" class="gg-menu">Connectez-vous</a>
-                    <?php } ?>
+                    <a class="gg-menu" href="<?= base_url('accueil/NouveauMonde')?>">Proposer votre univers</a>
                 </li>
             </ul>
         </div>
@@ -66,7 +59,7 @@
 <?php if(isset($titre)){?>
 <nav class="navbar navbar-default">
     <div class="gg-ariane">
-        <a href="<?= base_url('Accueil')?>">Accueil</a> > <a href="<?= current_url()?>"><?=$titre?></a>
+        <a href="<?= base_url('accueil')?>">Accueil</a> > <a href="<?= current_url()?>"><?=$titre?></a>
     </div>
 </nav>
 <?php }?>

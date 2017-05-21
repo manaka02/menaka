@@ -10,6 +10,7 @@ class Accueil extends CI_Controller{
         $data['tarifs'] = $this->Monde_model->allModel('tarif');
         $data['content'] = "message d'accueil";
         $data['contents'] = "accueil";
+        $data['titre'] = "Bienvenue sur AndroîdLand";
         $this->load->view('default',$data);
 
     }

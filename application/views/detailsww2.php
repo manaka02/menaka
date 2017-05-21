@@ -107,13 +107,10 @@
                     <h4 >Bienvenue dans le monde de la guerre</h4>
                     <p><i>Nous sommes en 1942, en plein milieu de la seconde guerre mondiale.
                             Le Chaos est partout, le monde est dévasté. </i>
-<<<<<<< HEAD
                         Je suis le Général Manaka. Je dirige une armée pour prévenir à la paix.
                         Tu seras en ma protéction si  tu viens dans mon monde.
-=======
                         Je suis le Général Manakà. J'ai été formé à la guerre dès mon plus jeune âge. Je dirige une armée pour qui veut retrouver la paix d'autrefois
                         Tu seras en ma protection une fois ici. Rejoins la bonne armée!
->>>>>>> db269b4b7bdadebb3895c94bf65055d062273417
                        .</p>
                 </div>
 
@@ -158,7 +155,11 @@
                 <p class="w3ls_head_para w3ls_head_para1">Vivez comme vous le voulez</p>
             </div>
             <div class="col-sm-10 col-sm-offset-3">
+<<<<<<< HEAD
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/tGj1Tw15Ng4" frameborder="0" allowfullscreen></iframe>
+=======
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pmTto632-QE" frameborder="0" allowfullscreen></iframe>
+>>>>>>> 7dea3758f0eec3a992e51f190899a6076e4415cf
             </div>
     </div>
 
