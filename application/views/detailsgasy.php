@@ -27,9 +27,9 @@
                                     <h1 class="w3l_head w3l_head1 text-warning">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p> comme vous le voulez vivre</p></li>
+                                            <li><p>Vivez le comme vous le voulez</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
-                                            <li><p>Anéantissons ensemble le mal</p> </li>
+                                            <li><p>Allons conquir le pays</p> </li>
                                         </ul>
 
                                     </div>
@@ -49,9 +49,9 @@
                                     <h1 class="w3l_head w3l_head1 text-warning">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p>Vivez comme vous le voulez</p></li>
+                                            <li><p>Vivez le comme vous le voulez</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
-                                            <li><p>Anéantissons ensemble le mal</p> </li>
+                                            <li><p>Allons conquir le pays</p> </li>
                                         </ul>
 
                                     </div>
@@ -69,9 +69,9 @@
                                     <h1 class="w3l_head w3l_head1 text-warning text-right">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p>Vivez comme vous le voulez</p></li>
+                                            <li><p>Vivez le comme vous le voulez</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
-                                            <li><p>Anéantissons ensemble le mal</p> </li>
+                                            <li><p>Allons conquir le pays</p> </li>
                                         </ul>
 
                                     </div>
@@ -108,8 +108,10 @@
                     <p><i>Nous sommes au XVII e siècle, sous le règne du roi Andrianampoinimerina.
                             Notre roi ne cesse de vouloir conquérir Madagascar. </i>
                         Je suis le guerrier Manaka. J'aide le roi à convaincre les territoires étrangères aux merina de le lui céder.
-                        Notre mpanjanka est le plus fort.
-                        .</p>
+                        Notre mpanjanka est le plus puissant.
+                        Aucun autre mpanjaka ne lui réussit! Rejoins nos troupe ! Sois des notres.
+                        Je te garderai en sécurité.
+                    </p>
                 </div>
 
                 <div class="clearfix"> </div>
