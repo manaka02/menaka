@@ -176,7 +176,7 @@
                             <img src="<?php echo base_url(); ?>assets/images/details/s1.jpg" alt="" />
                             <div class="projects-grid-caption">
 
-                                <h4>General de guerre</h4>
+                                <h4>Troupe malagasy</h4>
                                 <p>Lorem ipsum</p>
                             </div>
                         </div>
@@ -227,25 +227,6 @@
                             <div class="projects-grid-caption">
 
                                 <h4>Survivant</h4>
-                                <p>Lorem ipsum</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s7.jpg" alt="" />
-                            <div class="projects-grid-caption">
-
-                                <h4>Fantasy World</h4>
-                                <p>Lorem ipsum</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s1.jpg" alt="" />
-                            <div class="projects-grid-caption">
-                                <h4>Fantasy World</h4>
                                 <p>Lorem ipsum</p>
                             </div>
                         </div>
