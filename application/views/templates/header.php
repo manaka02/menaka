@@ -42,21 +42,23 @@
         <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/nosMondes')?>">Nos Univers</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/NosUnivers')?>">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/preparer')?>">Preparer votre séjour</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/Preparer')?>">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/vote')?>">Proposer votre univers</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/NouveauMonde')?>">Proposer votre univers</a>
                 </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
 </nav>
+<?php if(isset($titre)){?>
 <nav class="navbar navbar-default">
     <div class="gg-ariane">
-        <a href="<?= base_url('accueil')?>">Accueil</a> > <a href="<?= base_url('accueil')?>">Nos mondes</a>
+        <a href="<?= base_url('accueil')?>">Accueil</a> > <a href="<?= current_url()?>"><?=$titre?></a>
     </div>
 </nav>
+<?php }?>

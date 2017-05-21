@@ -57,7 +57,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-mg">
                     <div class="gg-btn">
-                        <a href="<?= base_url('details/gasy')?>" class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('details/GasyRoyalty')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
                         </a>
                     </div>
@@ -69,7 +69,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-primal">
                     <div class="gg-btn">
-                        <a href="<?= base_url('details')?>" class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('details/SecondWar')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
                         </a>
                     </div>
@@ -81,7 +81,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-guerre">
                     <div class="gg-btn">
-                        <a href="<?= base_url('details/prehistoire')?>" class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('details/PreHistory')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
                         </a>
                     </div>
