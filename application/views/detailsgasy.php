@@ -105,10 +105,10 @@
                 <div class="col-md-8 agileits_banner_bottom_grid_l">
 
                     <h4 >Bienvenue dans le monde de la guerre</h4>
-                    <p><i>Nous sommes en 1942, en plein milieu de la seconde guerre mondiale.
-                            Le Chaos est partout, le monde est dévasté. </i>
-                        Je suis le Général Manaka. Je dirige une armée pour prvenir à la paix.
-                        Tu seras en ma protéction si  tu viens dans mon monde.
+                    <p><i>Nous sommes au XVII e siècle, sous le règne du roi Andrianampoinimerina.
+                            Notre roi ne cesse de vouloir conquérir Madagascar. </i>
+                        Je suis le guerrier Manaka. J'aide le roi à convaincre les territoires étrangères aux merina de le lui céder.
+                        Notre mpanjanka est le plus fort.
                         .</p>
                 </div>
 
