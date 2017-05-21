@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'caroussel-font';
+    src: url('../fonts/BADUY.eot');
+    src: local('☺'), url('../fonts/BADUY.woff') format('woff'), url('../fonts/BADUY.ttf') format('truetype'), url('../fonts/BADUY.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /**Header**/
 .gg-nav a:hover{
     color : rgba(0, 0, 0, 0.72) !important;
@@ -111,7 +118,7 @@
     background-size: cover;
 }
 .gg-album{
-    background: #3B1451;
+    background: #74ccd4;
 }
 .gg-bg{
     background: url("../img/tour-bg.png") fixed;
@@ -232,6 +239,7 @@
 .price-option__detail {
     padding: 2em 0;
     min-height: 320px;
+    margin-top: 10px;
     background: white;
     text-align: center;
 }
