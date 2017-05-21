@@ -37,7 +37,7 @@ class Utilisateur extends CI_Controller {
         }
     }
 
-    public function inscription()
+    public function Inscription()
     {
 //        if ($this->session->has_userdata('email')){
 //            $this->session->sess_destroy();
@@ -71,7 +71,7 @@ class Utilisateur extends CI_Controller {
         }
     }
 
-    public function deconnexion()
+    public function Deconnexion()
     {
         $this->session->sess_destroy();
 				redirect();

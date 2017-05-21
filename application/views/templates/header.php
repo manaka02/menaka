@@ -42,13 +42,13 @@
         <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="gg-menu" href="#about">Nos Univers</a>
+                    <a class="gg-menu" href="<?= base_url(); ?>Accueil/NosUnivers">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="#services">Preparer votre séjour</a>
+                    <a class="gg-menu" href="<?= base_url(); ?>Accueil/Preparer">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="#portfolio">Proposer votre univers</a>
+                    <a class="gg-menu" href="<?= base_url(); ?>Accueil/Proposer">Proposer votre univers</a>
                 </li>
             </ul>
         </div>
