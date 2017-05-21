@@ -108,7 +108,7 @@
 <script src="<?= base_url() ?>assets/js/jquery.easing.min.js"></script>
 <script src="<?= base_url() ?>assets/js/wow.min.js"></script>
 <script src="<?= base_url() ?>assets/js/common.js"></script>
-
+<?= base_url() ?>Accueil/effectuerVote/ ?>
 	<script>
 		var app = angular.module('myApp', []);
 		app.controller('myCtrl', function($scope,$http) {

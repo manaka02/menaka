@@ -26,22 +26,22 @@
         <div class="pricing">
             <div class="[ price-option price-option--low ]">
                 <div class="price-option__detail">
-                    <span class="price-option__cost">$0</span>
-                    <span class="price-option__type">Freeuser</span>
+                    <span class="price-option__cost"><?php echo $tarifs[0]->montant; ?> $</span>
+                    <span class="price-option__type"><?php echo $tarifs[0]->designation; ?></span>
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
             <div class="[ price-option price-option--mid ]">
                 <div class="price-option__detail">
-                    <span class="price-option__cost">$20</span>
-                    <span class="price-option__type">Poweruser</span>
+                    <span class="price-option__cost"><?php echo $tarifs[1]->montant; ?> $</span>
+                    <span class="price-option__type"><?php echo $tarifs[1]->designation; ?></span>
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
             <div class="[ price-option price-option--high ]">
                 <div class="price-option__detail">
-                    <span class="price-option__cost">$40</span>
-                    <span class="price-option__type">Superuser</span>
+                    <span class="price-option__cost"><?php echo $tarifs[2]->montant; ?> $</span>
+                    <span class="price-option__type"><?php echo $tarifs[2]->designation; ?></span>
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
@@ -117,94 +117,84 @@
                 <div class="row no-gutter">
                     <div class="col-lg-4 col-sm-6">
                         <a href="#" class="portfolio-box">
-                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/15222605/beauty-354565_1280-450x300.jpg" class="img-responsive" alt="">
+                            <img src="<?php echo base_url(); ?>assets/images/details/fille-primal.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Category
+                                        Préhistoire
                                     </div>
                                     <div class="project-name">
-                                        Project Name
+                                        Devenez une guerrière digne de ce nom
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="https://s3-eu-west-1.amazonaws.com/layanademo/woman-983967_640.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
+                        <div class="col-sm-12">
+                            <a href="#" class="portfolio-box">
+                                <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            Category
+                                        </div>
+                                        <div class="project-name">
+                                            Project Name
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="#" class="portfolio-box">
+                                <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            Category
+                                        </div>
+                                        <div class="project-name">
+                                            Project Name
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="#" class="portfolio-box">
+                                <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
+                                <div class="portfolio-box-caption">
+                                    <div class="portfolio-box-caption-content">
+                                        <div class="project-category text-faded">
+                                            Category
+                                        </div>
+                                        <div class="project-name">
+                                            Project Name
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <a href="#" class="portfolio-box">
-                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160348/woman-919047_1280-450x300.jpg" class="img-responsive" alt="">
+                            <img src="<?php echo base_url(); ?>assets/img/miaramila-gasy.png" class="img-responsive" alt="">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-category text-faded">
-                                        Category
+                                        Epôque Royale
                                     </div>
                                     <div class="project-name">
-                                        Project Name
+                                        Arriveriez-vous à défendre votre royaume des envahisseurs
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/18160911/woman-659352_1280-450x300.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a href="#" class="portfolio-box">
-                            <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/15222605/woman-918614_1280-449x300.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+
+
+
                 </div>
 
             </div>
