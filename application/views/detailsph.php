@@ -104,11 +104,10 @@
                 </div>
                 <div class="col-md-8 agileits_banner_bottom_grid_l">
 
-                    <h4 >Bienvenue dans le monde de l'age de pierre</h4>
-                    <p><i>Nous sommes en 1942, en plein milieu de la seconde guerre mondiale.
-                            Le Chaos est partout, le monde est dévasté. </i>
-                        Je suis le Général Manaka. Je dirige une armée pour prvenir à la paix.
-                        Tu seras en ma protéction si  tu viens dans mon monde.
+                    <h4 >Bienvenue dans le monde de l' age de pierre</h4>
+                    <p><i>2,8 millions d'années passées, Homo Habilis, chef de tribut, régnait la terreur sur terre. </i>
+                        Je m'appelle Lina. Aide moi à affronter cette créature pour me venger de son père, Homo Sapifius.
+                        Rejoins mon monde, Moi et Mammouth <br>te protegerions.
                         .</p>
                 </div>
 
@@ -124,13 +123,16 @@
 
             <div class="agileits_banner_bottom_grids">
                 <div class="col-md-6 agileits_banner_bottom_grid_l">
-                    <h4>Aliquam a nunc non erat lobortis</h4>
-                    <p><i>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-                            Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.</i>Nullam sodales rutrum nisl, gravida porttitor lectus porta et.
-                        Duis purus arcu, semper at magna faucibus, elementum maximus ligula.
-                        Etiam imperdiet posuere odio gravida vehicula. Nulla consectetur massa
-                        eget tincidunt suscipit. Integer vitae ex eros. Cras ornare dignissim
-                        scelerisque.</p>
+                    <h4>Je te raconte...</h4>
+                    <p>
+                            Je suis une simple villageoise, mais la seule à être consciente de la cruauté de Homo Habilis, "notre chef de tribu" disent-ils.
+                            Habilis était le fils de Homo Sapifius, le premier être humain qui était un chef loyal, servile et affable malgré tout le grand pouvoir qu'il possédait.
+                            135 ans plus tard, son fils Habilis s'est rendu compte du pouvoir que détenait son père. Cependant, Il l'assassinat pour s'en emparer et fit croire au peuple qu'il fut tué par sa femme.
+                            Sans qu'il le sache, j'ai tout vu! J'ai été présente! Mais personne ne voulait me croire...
+                            Le peuple éxécuta ainsi la femme. C'est ainsi qu'il devena chef de tribut. Néanmoins, il régna dans la noirceur, fit le peuple son esclave, éxécuta ceux qui le désobéissait.</p><br>
+                            <p>Je t'en supplie! Aide moi à venger son père! Je t'entrainerais. Je ferais de toi une puissante espèce! Non seulement celà, je te ferrais visiter toute la splendeur de la terre
+                            à cette époque. Tu rencontreras les Mammouths, les Dinosaures, ainsi tyranosaures!</p>
+                            <b>Alors n'hésite même pas! Viens dans mon monde!</b>
                 </div>
                 <div class="col-md-6 agileits_banner_bottom_grid_r">
                     <div class="agileits_banner_btm_grid_r" style="top: -140px;">
