@@ -153,7 +153,7 @@
             <p class="w3ls_head_para w3ls_head_para1">Vivez comme vous le voulez</p>
         </div>
         <div class="col-sm-10 col-sm-offset-3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tGj1Tw15Ng4" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EOtOkNgdZTU" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 
