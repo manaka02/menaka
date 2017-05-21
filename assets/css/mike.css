@@ -231,7 +231,7 @@
 
 .price-option__detail {
     padding: 2em 0;
-    min-height: 300px;
+    min-height: 320px;
     background: white;
     text-align: center;
 }
@@ -275,6 +275,13 @@
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.price-option__detail img{
+    margin: 5px;
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
 }
 
 .price-option--low .price-option__purchase {
