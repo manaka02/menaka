@@ -363,9 +363,12 @@ video{
     .gg-card-madagascar, .gg-card-war{
         transform: translate(30%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9) !important;
     }
+    .elmt-illustration{
+        display: none;
+    }
 }
 @media only screen and (max-width:480px) {
-    .gg-logo p{
+    .gg-logo p, .elmt-illustration{
         display: none;
     }
     .gg-card-madagascar, .gg-card-war, .gg-card-prehistoire{
