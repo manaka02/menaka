@@ -110,7 +110,7 @@
 			<div class="box">
 				<h2>Tarif <b>Junior</b></h2>
 				<p>
-					When we give cheerfully and accept gratefully, everyone is blessed. A bone to the dog is not charity. Charity is the bone shared with the dog, when you are just as hungry as the dog.
+					Vous vouliez
 				</p>
 				<a href="#contact" class="btn btn-primary btn-lg">Prendre le billet!</a>
 			</div>
