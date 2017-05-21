@@ -34,9 +34,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="<?= base_url('accueil')?>">
-<!--                <img src="img/logo.png" alt="logolayana">-->
-                ANDROIDLAND
+            <a class="navbar-brand page-scroll gg-logo" href="<?= base_url('accueil')?>">
+                <img src="<?= base_url('assets/img/logo-AL.png')?>" alt="logolayana">
+                <p><span>Androïd</span>Land</p>
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
