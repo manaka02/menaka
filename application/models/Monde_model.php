@@ -63,6 +63,10 @@ class Monde_model extends CI_Model{
 
     }
 
+    public function getNumberRows($table){
+        return $this->db->count_all($table);
+    }
+
     public function getNumberRowsAll(){
         $data['monde'] = $this->db->count_all('monde');
         $data['ticket'] = $this->db->count_all('ticket');

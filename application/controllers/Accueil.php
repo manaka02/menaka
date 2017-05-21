@@ -7,9 +7,11 @@ class Accueil extends CI_Controller{
         $this->load->model('Monde_model');
     }
     public function index(){
+        $data['tarifs'] = $this->Monde_model->allModel('tarif');
         $data['content'] = "message d'accueil";
         $data['contents'] = "accueil";
         $this->load->view('default',$data);
+
     }
 
     public function Preparer(){

@@ -18,22 +18,22 @@
         <div class="pricing">
             <div class="[ price-option price-option--low ]">
                 <div class="price-option__detail">
-                    <span class="price-option__cost">$0</span>
-                    <span class="price-option__type">Freeuser</span>
+                    <span class="price-option__cost"><?php echo $tarifs[0]->montant; ?> $</span>
+                    <span class="price-option__type"><?php echo $tarifs[0]->designation; ?></span>
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
             <div class="[ price-option price-option--mid ]">
                 <div class="price-option__detail">
-                    <span class="price-option__cost">$20</span>
-                    <span class="price-option__type">Poweruser</span>
+                    <span class="price-option__cost"><?php echo $tarifs[1]->montant; ?> $</span>
+                    <span class="price-option__type"><?php echo $tarifs[1]->designation; ?></span>
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
             <div class="[ price-option price-option--high ]">
                 <div class="price-option__detail">
-                    <span class="price-option__cost">$40</span>
-                    <span class="price-option__type">Superuser</span>
+                    <span class="price-option__cost"><?php echo $tarifs[2]->montant; ?> $</span>
+                    <span class="price-option__type"><?php echo $tarifs[2]->designation; ?></span>
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
