@@ -19,7 +19,7 @@
 					Pr&eacute;parer votre s&eacute;jour </h2>
 				<h1 data-animation="animated bounceInUp">
 					Android Land</h1>
-				<a href="#tarif" class="btn btn-ghost btn-lg" data-animation="animated fadeInLeft">Start Tour</a><a href="#" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Learn More</a>
+				<a href="#tarif" class="btn btn-ghost btn-lg" data-animation="animated fadeInLeft">Prendre un billet</a><a href="<?= base_url() ?>Accueil/NosUnivers" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">D&eacute;couvrir</a>
 			</div>
 		</div>
 		<!-- /.item -->
@@ -38,7 +38,7 @@
 		<div class="item"  style="background-image:url(<?= base_url() ?>assets/img/seconde-guerre-mondiale.jpg)">
 			<div class="carousel-caption">
 				<h2 data-animation="animated bounceInDown">
-					Visitez votre &eacute;poque </h2>
+					Visitez votre &eacute;poque favorite</h2>
 				<h1 data-animation="animated bounceInUp">
 					Android Land</h1>
 				<a href="#tarif" class="btn btn-ghost btn-lg" data-animation="animated zoomInRight">Start Tour</a><a href="#" class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Learn More</a>
