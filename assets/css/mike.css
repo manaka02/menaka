@@ -346,8 +346,29 @@ video{
     height: 600px ;
     overflow: hidden;
 }
+@media only screen and (max-width: 1270px){
+    .gg-card-madagascar, .gg-card-war{
+        transform: translate(120%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9) !important;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .gg-card-madagascar, .gg-card-war{
+        transform: translate(90%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9) !important;
+    }
+}
 @media only screen and (max-width:768px) {
     .video-bg{
         height: 100%;
+    }
+    .gg-card-madagascar, .gg-card-war{
+        transform: translate(30%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9) !important;
+    }
+}
+@media only screen and (max-width:480px) {
+    .gg-logo p{
+        display: none;
+    }
+    .gg-card-madagascar, .gg-card-war, .gg-card-prehistoire{
+        transform: translate(0%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9) !important;
     }
 }
