@@ -3,7 +3,9 @@
         <div class="bg-landing">
             <h1>Bienvenue à AndroidLand</h1>
             <p class="gg-landing-desc">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda autem blanditiis culpa dolore error fuga incidunt maxime minus natus nesciunt nostrum officiis optio porro quibusdam ratione vel, voluptate. Pariatur!
+                Revivez les forts et moments inédits passés de notre monde dans toute sa splendeur. <br>
+                <strong>"Refaire une histoire, refaire une vie"</strong>
+
                 <div class="gg-title gg-title-reservation">
                     <div class="gg-wiered-border">
                         <div class="gg-box-title">
@@ -28,6 +30,7 @@
                 <div class="price-option__detail">
                     <span class="price-option__cost"><?php echo $tarifs[0]->montant; ?> $</span>
                     <span class="price-option__type"><?php echo $tarifs[0]->designation; ?></span>
+                    <img src="<?php echo base_url(); ?>assets/img/tiketbleu.png" alt="">
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
@@ -35,6 +38,7 @@
                 <div class="price-option__detail">
                     <span class="price-option__cost"><?php echo $tarifs[1]->montant; ?> $</span>
                     <span class="price-option__type"><?php echo $tarifs[1]->designation; ?></span>
+                    <img src="<?php echo base_url(); ?>assets/img/tiketjaune.png" alt="">
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
@@ -42,6 +46,7 @@
                 <div class="price-option__detail">
                     <span class="price-option__cost"><?php echo $tarifs[2]->montant; ?> $</span>
                     <span class="price-option__type"><?php echo $tarifs[2]->designation; ?></span>
+                    <img src="<?php echo base_url(); ?>assets/img/tiketrouge.png" alt="">
                 </div>
                 <a href="#" class="price-option__purchase">Réserver</a>
             </div>
@@ -133,14 +138,14 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="col-sm-12">
                             <a href="#" class="portfolio-box">
-                                <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
+                                <img src="<?php echo base_url(); ?>assets/img/landscape-prehistoric.jpg" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-category text-faded">
-                                            Category
+                                            Terre ancien
                                         </div>
                                         <div class="project-name">
-                                            Project Name
+                                            Survivre est la priorité
                                         </div>
                                     </div>
                                 </div>
@@ -148,14 +153,14 @@
                         </div>
                         <div class="col-sm-12">
                             <a href="#" class="portfolio-box">
-                                <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
+                                <img src="<?php echo base_url(); ?>assets/img/landscape-gasy.jpg" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-category text-faded">
-                                            Category
+                                            Terre Malgache
                                         </div>
                                         <div class="project-name">
-                                            Project Name
+                                            L'union fait la force
                                         </div>
                                     </div>
                                 </div>
@@ -163,14 +168,14 @@
                         </div>
                         <div class="col-sm-12">
                             <a href="#" class="portfolio-box">
-                                <img src="http://s3.amazonaws.com/caymandemo/wp-content/uploads/sites/11/2015/09/30160151/time-425818_1280-450x300.jpg" class="img-responsive" alt="">
+                                <img src="<?php echo base_url(); ?>assets/img/landscape-war2.jpg" class="img-responsive" alt="">
                                 <div class="portfolio-box-caption">
                                     <div class="portfolio-box-caption-content">
                                         <div class="project-category text-faded">
-                                            Category
+                                            Terre en conflit
                                         </div>
                                         <div class="project-name">
-                                            Project Name
+                                            Seule la victoire qui compte
                                         </div>
                                     </div>
                                 </div>
