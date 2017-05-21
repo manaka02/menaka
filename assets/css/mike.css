@@ -152,7 +152,7 @@
     background: url(../img/primal-homme.png) center top;
 }
 .gg-guerre{
-    background: url("../img/guerre-avion.jpg");
+    background: url("../img/guerre-homme.jpg");
 }
 .gg-mg:hover{
     background: url("../img/gasy-royalty-logo.jpg");
@@ -161,7 +161,7 @@
     background: url("../img/primal-tiger.png");
 }
 .gg-guerre:hover{
-    background: url("../img/second-war-logo.jpg");
+    background: url("../img/guerre-avion.jpg");
 }
 .bg{
     height: 300px;
