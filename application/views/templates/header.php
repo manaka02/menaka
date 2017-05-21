@@ -23,7 +23,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="page-top">
+<body id="page-top" ng-app="myApp">
 <nav id="mainNav" class="navbar navbar-default">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,6 +50,13 @@
                 </li>
                 <li>
                     <a class="gg-menu" href="<?= base_url('Accueil/NouveauMonde')?>">Proposer votre univers</a>
+                </li>
+                <li>
+                    <?php if(isset($_SESSION["user"])){ ?>
+                        <a href="<?php echo base_url(); ?>Utilisateur/deconnexion" class="gg-menu">Deconnexion</a>
+                    <?php }else{ ?>
+                        <a href="<?php echo base_url(); ?>Utilisateur" class="gg-menu">Connectez-vous</a>
+                    <?php } ?>
                 </li>
             </ul>
         </div>

@@ -73,21 +73,25 @@
 				<h2 class="section-heading">LES <b>IDEES</b> ID&Eacute;ES D&Eacute;J&Agrave; SOUMISES</h2>
 				<hr>
 				<!--/.Card-->
-				<div class="w3-card w3-white row">
-					<div class="media col-sm-8">
-						<div class="media-left media-middle">
-							<img src="img_avatar1.png" class="media-object" style="width:80px">
+				<div ng-controller="myCtrl">
+					<div class="w3-card w3-white row" ng-repeat="lt in listeVote">
+						<div class="media col-sm-8">
+							<div class="media-left media-middle">
+								<img src="img_avatar1.png" class="media-object" style="width:80px">
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">{{lt.designation}}</h4>
+								<p>{{lt.description}}</p>
+							</div>
 						</div>
-						<div class="media-body">
-							<h4 class="media-heading">Media Middle</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<div class="col-sm-4 text-center row">
+							<h3><i><b>{{lt.totalvote + <?= $ajoutVote ?>}}</b></i> Vote(s)</h3>
+							<?php if(isset($_SESSION["user"])){ ?>
+								<button ng-click="myFunction('{{lt.idmonde}}','{{lt.iduser}}')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
+							<?php }else{ ?>
+								<a href="<?php echo base_url(); ?>Utilisateur" id="test" class="btn btn-primary btn-lg" value="">Veuillez-vous connecter pour en acheter</a>
+							<?php } ?>
 						</div>
-					</div>
-					<div class="col-sm-4 text-center row"  ng-app="myApp" ng-controller="myCtrl">
-						<h3><i><b>{{vote + <?= $ajoutVote ?>}}</b></i> Vote(s)</h3>
-						<button ng-click="myFunction('<?= 1 ?>','<?= 1 ?>')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
 					</div>
 				</div>
 			</div>
@@ -108,7 +112,7 @@
 	<script>
 		var app = angular.module('myApp', []);
 		app.controller('myCtrl', function($scope,$http) {
-			$scope.vote = 3;
+			$scope.totalvote = 3;
 			$scope.myFunction = function(id,iduser) {
 				$http.get("<?= base_url() ?>Accueil/effectuerVote/"+id+"/"+iduser)
 					.then(function(response) {
@@ -117,5 +121,12 @@
 //					$scope.myWelcome = response.data;
 					});
 			}
+
+			$http.get("<?= base_url() ?>Accueil/listeVote")
+				.then(function(response) {
+						$scope.listeVote = response.data.votevue;
+				}),(function(error) {
+//					$scope.myWelcome = response.data;
+			});
 		});
 	</script>

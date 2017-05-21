@@ -43,4 +43,7 @@ class Accueil extends CI_Controller{
         }
         $data['ajoutVote'] = $vote[0]->valeur;
     }
+    public function listeVote(){
+        echo json_encode($this->Monde_model->getAllMonde());
+    }
 }
