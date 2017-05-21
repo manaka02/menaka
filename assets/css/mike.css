@@ -91,7 +91,7 @@
     background: url(../img/prehistoire.jpg) center top;
 }
 .gg-guerre{
-    background: url("../img/second-war-logo.jpg");
+    background: url("../img/seconde-guerre-mondiale.jpg");
 }
 .gg-mg:hover{
     background: url("../img/gasy-royalty-logo.jpg");
@@ -100,7 +100,7 @@
     background: url("../img/prehistory-logo.jpg");
 }
 .gg-guerre:hover{
-    background: url("../img/prehistoire.jpg");
+    background: url("../img/second-war-logo.jpg");
 }
 .bg{
     height: 300px;
