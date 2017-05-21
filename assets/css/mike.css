@@ -56,6 +56,21 @@
     margin-top: 150px;
     color: #000 !important;
 }
+
+.gg-logo{
+    width: 280px;
+}
+.gg-logo img{
+    width: 70px;
+    float: left;
+    margin-top: -20px;
+}
+.gg-logo p{
+    line-height: 30px;
+    font-size: 30px;
+    margin-left: 79px
+}
+
 .gg-wiered-border{
     width: 400px;
     display: inline-block;
@@ -216,7 +231,7 @@
 
 .price-option__detail {
     padding: 2em 0;
-    min-height: 300px;
+    min-height: 320px;
     background: white;
     text-align: center;
 }
@@ -260,6 +275,13 @@
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.price-option__detail img{
+    margin: 5px;
+    display: inline-block;
+    width: 80%;
+    margin-top: 20px;
 }
 
 .price-option--low .price-option__purchase {
