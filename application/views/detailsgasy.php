@@ -107,7 +107,7 @@
                     <h4 >Bienvenue dans le monde de la guerre</h4>
                     <p><i>Nous sommes au XVII e siècle, sous le règne du roi Andrianampoinimerina.
                             Notre roi ne cesse de vouloir conquérir Madagascar. </i>
-                        Je suis le guerrier Manaka. J'aide le roi à convaincre les territoires étrangères aux merina de le lui céder.
+                        Je suis le guerrier Maika. J'aide le roi à convaincre les territoires étrangères aux merina de le lui céder.
                         Notre mpanjanka est le plus puissant.
                         Aucun autre mpanjaka ne lui réussit! Rejoins nos troupe ! Sois des notres.
                         Je te garderai en sécurité.
@@ -155,7 +155,7 @@
             <p class="w3ls_head_para w3ls_head_para1">Vivez comme vous le voulez</p>
         </div>
         <div class="col-sm-10 col-sm-offset-3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tGj1Tw15Ng4" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=0JvIqmWZI_4" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 
