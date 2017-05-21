@@ -51,6 +51,13 @@
                 <li>
                     <a class="gg-menu" href="<?= base_url('Accueil/NouveauMonde')?>">Proposer votre univers</a>
                 </li>
+                <li>
+                    <?php if(isset($_SESSION["user"])){ ?>
+                        <a href="<?php echo base_url(); ?>Utilisateur/deconnexion" class="gg-menu">Deconnexion</a>
+                    <?php }else{ ?>
+                        <a href="<?php echo base_url(); ?>Utilisateur" class="gg-menu">Connectez-vous</a>
+                    <?php } ?>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

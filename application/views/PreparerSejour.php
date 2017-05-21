@@ -175,7 +175,11 @@
 						</select>
 						<input name="quantite" type="number" class="col-md-4" placeholder="Nombre de personne *" min="1" required>
 						<input name="date" type="date" class="col-md-8" placeholder="Date *" required>
-						<input type="submit" id="test" class="contact submit btn btn-primary btn-xl" value="Acheter">
+						<?php if(isset($_SESSION["user"])){ ?>
+							<input type="submit" id="test" class="contact submit btn btn-primary btn-xl" value="Acheter">
+						<?php }else{ ?>
+							<a href="<?php echo base_url(); ?>Utilisateur" id="test" class="contact submit btn btn-primary btn-xl" value="">Veuillez-vous connecter pour en acheter</a>
+						<?php } ?>
 					</form>
 				</div>
 			</div>
@@ -295,7 +299,11 @@
 						<input name="quantite" type="number" class="col-md-4" placeholder="Nombre de personne *" min="1" required>
 						<input name="date" type="date" class="col-md-4" placeholder="Date de début *" required>
 						<input name="datefin" type="date" class="col-md-4" placeholder="Date de fin *" required>
-						<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="R&eacute;server">
+						<?php if(isset($_SESSION["user"])){ ?>
+							<input type="submit" id="submit" class="contact submit btn btn-primary btn-xl" value="R&eacute;server">
+						<?php }else{ ?>
+							<a href="<?php echo base_url(); ?>Utilisateur" id="test" class="contact submit btn btn-primary btn-xl" value="">Veuillez-vous connecter pour en acheter</a>
+						<?php } ?>
 					</form>
 				</div>
 			</div>
