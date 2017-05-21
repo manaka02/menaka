@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/toavina.css">
 
 
@@ -13,15 +13,7 @@
     <link href="//fonts.googleapis.com/css?family=Jura:300,400,500,600" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-=======
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/toavina.css">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-    function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="<?php echo base_url(); ?>assets/css/details/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- gallery -->
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/details/lightGallery.css" type="text/css" media="all" />
->>>>>>> aa85176a1a9cfdd9ed5f11f8b4963171844fae86
+
 <div class="w3-navigation">
     <!-- banner -->
     <div class="banner">
@@ -34,7 +26,7 @@
                 <ul class="rslides" id="slider3">
                     <li>
                         <div class="slider-img">
-                            <img src="<?php echo base_url(); ?>assets/images/details/ww1.jpg" class="img-responsive" alt="Fantasy World">
+                            <img src="<?php echo base_url(); ?>assets/images/details/gasy1.jpg" class="img-responsive w3-sepia-max" alt="Fantasy World">
                         </div>
                         <div class="slider-info col-sm-10">
                             <div class="container">
@@ -56,7 +48,7 @@
                     </li>
                     <li>
                         <div class="slider-img">
-                            <img src="<?php echo base_url(); ?>assets/images/details/ww2.jpg" class="img-responsive " alt="Fantasy World">
+                            <img src="<?php echo base_url(); ?>assets/images/details/gasy2.jpg" class="img-responsive w3-sepia-max" alt="Fantasy World">
                         </div>
                         <div class="slider-info col-sm-10">
                             <div class="container">
@@ -76,7 +68,7 @@
                     </li>
                     <li>
                         <div class="slider-img">
-                            <img src="<?php echo base_url(); ?>assets/images/details/ww3.jpg" class="img-responsive" alt="Fantasy World">
+                            <img src="<?php echo base_url(); ?>assets/images/details/gasy3.jpg" class="img-responsive w3-sepia-max" alt="Fantasy World">
                         </div>
                         <div class="slider-info col-sm-10">
                             <div class="container">
