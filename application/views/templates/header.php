@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="<?= base_url('accueil')?>">
+            <a class="navbar-brand page-scroll" href="<?= base_url('Accueil')?>">
 <!--                <img src="img/logo.png" alt="logolayana">-->
                 ANDROIDLAND
             </a>
@@ -43,13 +43,13 @@
         <div class="collapse navbar-collapse gg-nav" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/NosUnivers')?>">Nos Univers</a>
+                    <a class="gg-menu" href="<?= base_url('Accueil/NosUnivers')?>">Nos Univers</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/Preparer')?>">Preparer votre séjour</a>
+                    <a class="gg-menu" href="<?= base_url('Accueil/Preparer')?>">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="<?= base_url('accueil/NouveauMonde')?>">Proposer votre univers</a>
+                    <a class="gg-menu" href="<?= base_url('Accueil/NouveauMonde')?>">Proposer votre univers</a>
                 </li>
             </ul>
         </div>
@@ -59,7 +59,7 @@
 <?php if(isset($titre)){?>
 <nav class="navbar navbar-default">
     <div class="gg-ariane">
-        <a href="<?= base_url('accueil')?>">Accueil</a> > <a href="<?= current_url()?>"><?=$titre?></a>
+        <a href="<?= base_url('Accueil')?>">Accueil</a> > <a href="<?= current_url()?>"><?=$titre?></a>
     </div>
 </nav>
 <?php }?>
