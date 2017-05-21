@@ -53,7 +53,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h1 class="bottombrand wow flipInX">AndroidLand</h1>
+                <h1 class="bottombrand wow flipInX">
+                    <img src="<?= base_url('assets/img/logo-AL.png')?>" alt="logolayana" height="120px" style="margin-top:-45px;">
+                    AndroidLand
+                </h1>
                 <p>
                     &copy; 2017 Grace Geek - #WebCup2k17
                 </p>
