@@ -153,7 +153,7 @@
             <p class="w3ls_head_para w3ls_head_para1">Vivez le comme vous le voulez</p>
         </div>
         <div class="col-sm-10 col-sm-offset-3">
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=0JvIqmWZI_4" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0JvIqmWZI_4" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 
@@ -171,7 +171,7 @@
                 <div id="owl-demo" class="owl-carousel owl-theme">
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s1.jpg" alt="mpanakanto" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/mpanankanto.jpg" alt="mpanakanto-malagasy" />
                             <div class="projects-grid-caption">
 
                                 <h4>Mpihira gasy, un Mpana kanto</h4>
@@ -181,7 +181,7 @@
                     </div>
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/andriana.jpg" alt="" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/andriana.jpg" alt="andriana-malagasy" />
                             <div class="projects-grid-caption">
 
                                 <h4>Une Andriana</h4>
@@ -201,7 +201,7 @@
                     </div>
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/soldat-malgache.jpg" alt="" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/soldat-malgache.jpg" alt="soldat-malagasy" />
                             <div class="projects-grid-caption">
 
                                 <h4>Soldat malagasy</h4>
@@ -211,11 +211,11 @@
                     </div>
                     <div class="item">
                         <div class="projects-agile-grid-info">
-                            <img src="<?php echo base_url(); ?>assets/images/details/s5.jpg" alt="" />
+                            <img src="<?php echo base_url(); ?>assets/images/details/vaza.jpg" alt="vaza" />
                             <div class="projects-grid-caption">
 
-                                <h4>Juifs</h4>
-                                <p>Lorem ipsum</p>
+                                <h4>Un Vaza</h4>
+                                <p>Un étranger qui tente de coloniser Madagascar et renverse la royauté</p>
                             </div>
                         </div>
                     </div>
