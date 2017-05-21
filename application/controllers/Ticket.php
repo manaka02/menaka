@@ -38,16 +38,4 @@ class Ticket extends CI_Controller{
                 break;
         }
     }
-
-    public function gasy(){
-        $data['content'] = "message d'accueil";
-        $data['contents'] = "detailsww2";
-        $this->load->view('detailsgasy',$data);
-    }
-
-    public function prehistoire(){
-        $data['content'] = "message d'accueil";
-        $data['contents'] = "detailsph";
-        $this->load->view('default',$data);
-    }
 }
