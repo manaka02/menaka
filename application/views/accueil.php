@@ -32,7 +32,7 @@
                     <span class="price-option__type"><?php echo $tarifs[0]->designation; ?></span>
                     <img src="<?php echo base_url(); ?>assets/img/tiketbleu.png" alt="">
                 </div>
-                <a href="#" class="price-option__purchase">Réserver</a>
+                <a href="<?= base_url('accueil/Preparer')?>"" class="price-option__purchase">Réserver</a>
             </div>
             <div class="[ price-option price-option--mid ]">
                 <div class="price-option__detail">
@@ -40,7 +40,7 @@
                     <span class="price-option__type"><?php echo $tarifs[1]->designation; ?></span>
                     <img src="<?php echo base_url(); ?>assets/img/tiketjaune.png" alt="">
                 </div>
-                <a href="#" class="price-option__purchase">Réserver</a>
+                <a href="<?= base_url('accueil/Preparer')?>"" class="price-option__purchase">Réserver</a>
             </div>
             <div class="[ price-option price-option--high ]">
                 <div class="price-option__detail">
@@ -48,7 +48,7 @@
                     <span class="price-option__type"><?php echo $tarifs[2]->designation; ?></span>
                     <img src="<?php echo base_url(); ?>assets/img/tiketrouge.png" alt="">
                 </div>
-                <a href="#" class="price-option__purchase">Réserver</a>
+                <a href="<?= base_url('accueil/Preparer')?>"" class="price-option__purchase">Réserver</a>
             </div>
         </div>
     </div>

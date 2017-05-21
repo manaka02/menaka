@@ -110,7 +110,8 @@
 			<div class="box">
 				<h2>Tarif <b>Junior</b></h2>
 				<p>
-					Vous vouliez
+					Vous vouliez faire une éscapade dans une autre vie pour 2 ou 3 jours?.
+					<br>Cette offre est faite spécialement pour vous.
 				</p>
 				<a href="#contact" class="btn btn-primary btn-lg">Prendre le billet!</a>
 			</div>
@@ -119,7 +120,8 @@
 			<div class="box">
 				<h2>Tarif <b>Solutions</b></h2>
 				<p>
-					The simplest acts of kindness are by far more powerful then a thousand heads bowing in prayer. Let us not forget that the real solution lies in a world in which charity will be unnecessary.
+					Si vous vouliez faire une artie en famille ou à plusieurs. Ceci est le mieux pour vous.
+					<br> Une offre dédiée specialement aux aventures de groupe.
 				</p>
 				<a href="#contact" class="btn btn-warning btn-lg">Prendre le billet!</a>
 			</div>
@@ -128,7 +130,8 @@
 			<div class="box">
 				<h2>Enjoy <b>Life</b></h2>
 				<p>
-					The simplest acts of kindness are by far more powerful then a thousand heads bowing in prayer. Let us not forget that the real solution lies in a world in which charity will be unnecessary.
+					l'offre la plus chère mais la meilleure, on vous traitera comme un Dieu et comme un Seigneur où que vous soyez dans nos mondes.
+					<br> Alors, vous attendez quoi encore?
 				</p>
 				<a href="#contact" class="btn btn-primary btn-lg">Prendre le billet!</a>
 			</div>
@@ -196,14 +199,14 @@
 			<div class="mask team_quote">
 				<div class="port-zoom-link">
 					<p>
-						Its is great to work in such company, some other projects will be started in the same format!
+						"Les ethiques Malgaches sans taches venant de l'extérieur. "
 					</p>
 				</div>
 			</div>
 		</div>
-		<h2>BEVERLY GARCIA</h2>
+		<h2>CITE DES MILLES SOLDATS</h2>
 		<p>
-			VOLUNTEER WORK
+			Place du marché
 		</p>
 		<div class="team-social">
 			<a href="#"><i class="fa fa-twitter"></i></a>
@@ -219,14 +222,14 @@
 			<div class="mask team_quote">
 				<div class="port-zoom-link">
 					<p>
-						Its is great to work in such company, some other projects will be started in the same format!
+						"Survivre et une chose, mais la famille c'en est une autre. "
 					</p>
 				</div>
 			</div>
 		</div>
-		<h2>MARY LACOSTE</h2>
+		<h2>UN CAMPS DE FAMILLE</h2>
 		<p>
-			LAYANA FOUNDER
+			Les premiers artisans
 		</p>
 		<div class="team-social">
 			<a href="#"><i class="fa fa-twitter"></i></a>
@@ -238,18 +241,18 @@
 	</div>
 	<div class="col-md-4 bg-primary no-padding teambox">
 		<div class="team-thumb overlay-image view-overlay">
-			<img src="<?= base_url() ?>assets/img/seconde-guerre-mondiale-carre.jpg" alt="" class="img-responsive">
+			<img src="<?= base_url() ?>assets/img/ww2.jpg" alt="" class="img-responsive">
 			<div class="mask team_quote">
 				<div class="port-zoom-link">
 					<p>
-						Its is great to work in such company, some other projects will be started in the same format!
+						"Finissons la guerre pour faire l'amour après. "
 					</p>
 				</div>
 			</div>
 		</div>
-		<h2>CAROL STEPHENS</h2>
+		<h2>ATTAQUES D'ASSAUT</h2>
 		<p>
-			PUBLIC RELATIONS
+			Des soldats qui ne reculeront devant rien
 		</p>
 		<div class="team-social">
 			<a href="#"><i class="fa fa-twitter"></i></a>
@@ -321,19 +324,19 @@
 					<div class="col-md-3">
 						<div class="funfacts text-center">
 							<div class="icon">
-								<i class="fa fa-tint"></i>
+								<i class="fa fa-thumbs-up"></i>
 							</div>
 							<h2 class="counter" data-from="0" data-to="294" data-speed="2500"></h2>
-							<h4>Happy Clients</h4>
+							<h4>Appréciation en ce mois</h4>
 						</div>
 					</div>
 					<div class="col-md-3">
 						<div class="funfacts text-center">
 							<div class="icon">
-								<i class="fa fa-trophy"></i>
+								<i class="fa fa-thumbs-down"></i>
 							</div>
-							<h2 class="counter" data-from="0" data-to="163" data-speed="2500"></h2>
-							<h4>Awards Received</h4>
+							<h2 class="counter" data-from="0" data-to="5" data-speed="2500"></h2>
+							<h4>Problèmes survenus</h4>
 						</div>
 					</div>
 					<div class="col-md-3">
@@ -341,17 +344,17 @@
 							<div class="icon">
 								<i class="fa fa-send-o"></i>
 							</div>
-							<h2 class="counter" data-from="0" data-to="317" data-speed="2500"></h2>
-							<h4>Letters Sent</h4>
+							<h2 class="counter" data-from="0" data-to="60" data-speed="2500"></h2>
+							<h4>Jours d'activités</h4>
 						</div>
 					</div>
 					<div class="col-md-3">
 						<div class="funfacts text-center">
 							<div class="icon">
-								<i class="fa fa-user"></i>
+								<i class="fa fa-group"></i>
 							</div>
-							<h2 class="counter" data-from="0" data-to="458" data-speed="2500"></h2>
-							<h4>Hired People</h4>
+							<h2 class="counter" data-from="0" data-to="1268" data-speed="2500"></h2>
+							<h4>Visiteurs</h4>
 						</div>
 					</div>
 				</div>
@@ -368,7 +371,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading"><b>Timeline</b></h2>
+				<h2 class="section-heading"><b>Vos retours</b></h2>
 			</div>
 		</div>
 	</div>
@@ -386,9 +389,10 @@
 								<div class="meta">
 									January 2017
 								</div>
-								<h3>Love Fashion</h3>
+								<h3>Andriatiana Baliaka</h3>
 								<p>
-									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+									J'ai passé 3jours dans le monde de nos ancêtres, pourquoi je ne suis pas née à cette époque là.
+									C'était vraiment formidable.
 								</p>
 							</div>
 						</div>
@@ -401,11 +405,11 @@
 							</div>
 							<div class="tline-item-txt text-left">
 								<div class="meta">
-									December 2016
+									Mars 2017
 								</div>
-								<h3>Green is Health</h3>
+								<h3>Anthony Ramanantsalama</h3>
 								<p>
-									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+									Vivre de telles aventures épiques qu'à l'age de Pierre... Une expérience qui me tiendra à coeur.
 								</p>
 							</div>
 						</div>
@@ -418,11 +422,12 @@
 							</div>
 							<div class="tline-item-txt text-right">
 								<div class="meta">
-									November 2016
+									Mars 2017
 								</div>
-								<h3>Why you love us</h3>
+								<h3>Steave Leong</h3>
 								<p>
-									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+									Rejoindre une armée, tenir une arme. A quelle point la tâche est - elle lourde?
+									Même si cen'était qu'une simulation, j'ai appris tant de chose et j(ai vécu un moment sensationnel.
 								</p>
 							</div>
 						</div>
@@ -435,11 +440,12 @@
 							</div>
 							<div class="tline-item-txt text-left">
 								<div class="meta">
-									September 2016
+									Avril 2017
 								</div>
-								<h3>Save our Planet</h3>
+								<h3>Andrianina Layton</h3>
 								<p>
-									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+									Je n'ai pu passer u'une journée dans AndroidPark, j'ai pas eu le temps de bien savourer l'ensemble
+									mai j'ai eu une super aperçue. J'ai hâte d'y revenir.
 								</p>
 							</div>
 						</div>
