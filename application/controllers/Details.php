@@ -6,7 +6,7 @@ class Details extends CI_Controller{
         parent::__construct();
     }
 
-    public function SecondWar(){
+    public function WorldWarII(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsww2";
         $this->load->view('default',$data);
