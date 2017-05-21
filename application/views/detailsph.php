@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-md-8 agileits_banner_bottom_grid_l">
 
-                    <h4 >Bienvenue dans le monde de l'age de pierre</h4>
+                    <h4 >Bienvenue dans le monde de l' age de pierre</h4>
                     <p><i>Nous sommes en 1942, en plein milieu de la seconde guerre mondiale.
                             Le Chaos est partout, le monde est dévasté. </i>
                         Je suis le Général Manaka. Je dirige une armée pour prvenir à la paix.
