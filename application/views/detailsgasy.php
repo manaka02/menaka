@@ -27,7 +27,7 @@
                                     <h1 class="w3l_head w3l_head1 text-warning">Royauté Malgache</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p> comme vous le vouleVivezz</p></li>
+                                            <li><p> comme vous le voulez vivre</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
                                             <li><p>Anéantissons ensemble le mal</p> </li>
                                         </ul>

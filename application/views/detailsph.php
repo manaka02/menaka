@@ -27,9 +27,9 @@
                                     <h1 class="w3l_head w3l_head1 text-warning">La préhistoire</h1>
                                     <div>
                                         <ul class="list-unstyled">
-                                            <li><p>Vivez comme vous le voulez</p></li>
+                                            <li><p>Vivez l'ère comme vous le voulez</p></li>
                                             <li><p>Venez vous battre à nos côtés</p></li>
-                                            <li><p>Anéantissons ensemble le mal</p> </li>
+                                            <li><p>Anéantissons ensemble l'ennemi</p> </li>
                                         </ul>
 
                                     </div>
