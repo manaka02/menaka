@@ -4,7 +4,7 @@
             <h1>Bienvenue à AndroidLand</h1>
             <p class="gg-landing-desc">
                 Revivez les forts et moments inédits passés de notre monde dans toute sa splendeur. <br>
-                <strong>"Refaire une histoire, refaire une vie"</strong>
+                <strong>"Revivre une histoire, revivre une vie"</strong>
 
                 <div class="gg-title gg-title-reservation">
                     <div class="gg-wiered-border">
