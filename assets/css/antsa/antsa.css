@@ -6,7 +6,7 @@
 	width: 48%;
 	position: absolute;
 	left: 500px;
-	top: 36px;
+	top: 92px;
 	z-index: 1000;
 }
 .gg-card-war{
@@ -14,7 +14,7 @@
 	height: 500px;
 	transform: translate(220%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
-	background: url(../../images/head.png) no-repeat 100%;
+	background: url(../../img/head-nazi.png) no-repeat 100%;
 	background-position: bottom;
 }
 .gg-card-prehistoire{
@@ -22,7 +22,7 @@
 	height: 500px;
 	transform: translate(20%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
-	background: url(../../images/head2.png) no-repeat 100%;
+	background: url(../../img/head-pre.png) no-repeat 100%;
 	background-position: bottom;
 }
 .gg-card-madagascar{
@@ -30,7 +30,7 @@
 	height: 500px;
 	transform: translate(220%,-15%) perspective(800px) rotateX(10deg) scale(0.9,0.9);
 	width: 400px;
-	background: url(../../images/head.png) no-repeat 100%;
+	background: url(../../img/head-gasy.png) no-repeat 100%;
 	background-position: bottom;
 }
 .gg-service-image{
