@@ -48,10 +48,15 @@
                     <a class="gg-menu" href="<?= base_url('accueil/preparer')?>">Preparer votre séjour</a>
                 </li>
                 <li>
-                    <a class="gg-menu" href="#portfolio">Proposer votre univers</a>
+                    <a class="gg-menu" href="<?= base_url('accueil/vote')?>">Proposer votre univers</a>
                 </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<nav class="navbar navbar-default">
+    <div class="gg-ariane">
+        <a href="<?= base_url('accueil')?>">Accueil</a> > <a href="<?= base_url('accueil')?>">Nos mondes</a>
     </div>
 </nav>

@@ -1,7 +1,16 @@
 /**Header**/
 .gg-nav a:hover{
-    color : #000000!important;
-    background: #512f50!important;
+    color : rgba(0, 0, 0, 0.72) !important;
+    background: #e7d9d9!important;
+}
+.gg-ariane{
+    border-top: #e7d9d9 3px solid;
+    height: 55px;
+    background: #ebebeb;
+    padding: 0 0 0 40px;
+}
+.gg-ariane a{
+    line-height: 50px !important;
 }
 .gg-nav a:active{
     color : #000000!important;
@@ -84,6 +93,39 @@
     transition-duration: 0.3s;
     transition: all .2s ease;
 }
+.agileits_banner_bottom_grid_l{
+    padding-top: 120px;
+}
+.gg-description{
+    height: 50px;
+    text-align: center;
+    margin-top: 25%;
+    line-height: 50px;
+    background: white;
+    text-transform: uppercase;
+}
+.bg-landing h1{
+    text-transform: uppercase;
+}
+.bg-landing{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: inline;
+    padding-top: 15%;
+    text-align: center;
+    height: inherit;
+    width: inherit;
+    color: #fff;
+    background: rgba(44, 143, 152, 0.36);
+}
+
+.gg-landing-desc{
+    width: 60%;
+    display: inline-block;
+    padding-top: 25px;
+}
+
 .gg-mg{
     background: url(img/malagasy-fahiny-1.jpg) center top;
 }
@@ -240,6 +282,9 @@
 
 video{
     width : 100%;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
 }
 .video-bg{
     height: 600px ;

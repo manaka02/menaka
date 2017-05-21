@@ -1,5 +1,11 @@
 <div class="section">
     <div class="video-bg">
+        <div class="bg-landing">
+            <h1>Bienvenue à AndroidLand</h1>
+            <p class="gg-landing-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda autem blanditiis culpa dolore error fuga incidunt maxime minus natus nesciunt nostrum officiis optio porro quibusdam ratione vel, voluptate. Pariatur!
+            </p>
+        </div>
         <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
 <!--           WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
             <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">
@@ -55,6 +61,9 @@
                             Découvrir
                         </a>
                     </div>
+                    <div class="gg-description">
+                        Royauté Malagasy
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -64,6 +73,9 @@
                             Découvrir
                         </a>
                     </div>
+                    <div class="gg-description">
+                        Guerre Mondiale
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
@@ -72,6 +84,9 @@
                         <a href="<?= base_url('details/prehistoire')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
                         </a>
+                    </div>
+                    <div class="gg-description">
+                        Parc préhistorique
                     </div>
                 </div>
             </div>
