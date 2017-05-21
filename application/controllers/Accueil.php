@@ -20,14 +20,17 @@ class Accueil extends CI_Controller{
         $data['listeTarifs'] = $listeTarifs;
         $data['idUser'] = $idUser;
         $data['contents'] = 'PreparerSejour.php';
+        $data['titre'] = "Préparer votre voyage";
         $this->load->view('default',$data);
     }
     public function NosUnivers(){
         $data['contents'] = "NosMondes";
+        $data['titre'] = "Nos univers";
         $this->load->view('default',$data);
     }
     public function NouveauMonde(){
         $data['contents'] = "vote";
+        $data['titre'] = "Proposer un nouvel univers";
         $this->load->view('default',$data);
     }
 }

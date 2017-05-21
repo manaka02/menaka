@@ -11,7 +11,7 @@
         <!-- banner -->
         <div class="banner">
             <div class="elmt-illustration col-sm-12">
-                <img src="<?php echo base_url(); ?>assets/images/details/capitaine.png" alt="" class="pull-left">
+                <img src="<?php echo base_url(); ?>assets/img/nazi.png" alt="" class="pull-left">
             </div>
             <!--Slider-->
             <div class="slider">
