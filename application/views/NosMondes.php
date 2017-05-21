@@ -78,7 +78,7 @@
                 <p>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
                     Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.
                 </p>
-                <a href="<?= base_url('details/SecondWar')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
+                <a href="<?= base_url('details/WorldWarII')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
