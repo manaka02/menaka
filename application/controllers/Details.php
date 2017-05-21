@@ -6,19 +6,19 @@ class Details extends CI_Controller{
         parent::__construct();
     }
 
-    public function index(){
+    public function WorldWarII(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsww2";
         $this->load->view('default',$data);
     }
 
-    public function gasy(){
+    public function GasyRoyalty(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsgasy";
         $this->load->view('default',$data);
     }
 
-    public function prehistoire(){
+    public function PreHistory(){
         $data['content'] = "message d'accueil";
         $data['contents'] = "detailsph";
         $this->load->view('default',$data);

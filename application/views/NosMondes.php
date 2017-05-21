@@ -21,15 +21,17 @@
                 <div class="col-md-12 agileits_banner_bottom_grid_l">
                     <div class="agileits_about_left">
                         <h3 class="w3l_head">Bienvenue à Androidland</h3>
-                        <p class="w3ls_head_para">who we are</p>
+                        <p class="w3ls_head_para">Un monde à part</p>
                     </div>
-                    <h4>Aliquam a nunc non erat lobortis</h4>
-                    <p><i>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-                            Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.</i>Nullam sodales rutrum nisl, gravida porttitor lectus porta et.
-                        Duis purus arcu, semper at magna faucibus, elementum maximus ligula.
-                        Etiam imperdiet posuere odio gravida vehicula. Nulla consectetur massa
-                        eget tincidunt suscipit. Integer vitae ex eros. Cras ornare dignissim
-                        scelerisque.</p>
+                    <p><i>Je suis le Professeur Antsa Rakotomananjo, diplomé en études robotiques et sciences humaines</i>
+                        Cela fait des centaines d'années que le monde désire de voir des robots pouvant agir comme des hommes, des robots
+                        semblables aux êtres humains.<br>
+                        J'ai commencé, 20 ans de cela, mes recherches sur la robotique qui m'ont permis d'aboutir aux résultats qu'on peut
+                        constater aujourdui. Je vous présente ainsi, le fruit de ces années en laboratoire : <strong><i>Android Land</i></strong><br>
+                        Android Land est l'unique parc au monde où vous ne rencontrerez que des Robots qui recréent en grandeur nature ces fabuleuses époques
+                        pensées être perdus dans le temps.<br>
+                        Suivez mes robots-chefs, Ils vous guideront dans leurs ères respectives.
+                    </p>
                 </div>
                 <div class="clearfix"> </div>
             </div>
@@ -38,7 +40,7 @@
 
 <!--    <div class="section">-->
         <div class="services gg-service-image" id="services" style="">
-            <h3 class="w3l_head w3l_head1">Word War II</h3>
+            <h3 class="w3l_head w3l_head1">World War IIs</h3>
             <p class="w3ls_head_para w3ls_head_para1">Visitez !</p>
             <div class="services-agile-w3l">
                 <div class="clearfix"> </div>
@@ -53,7 +55,7 @@
                 <p>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
                         Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.
                 </p>
-                <a href="#about" class="btn btn-primary btn-lg">Read More</a>
+                <a href="<?= base_url('details/GasyRoyalty')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
@@ -76,7 +78,7 @@
                 <p>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
                     Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.
                 </p>
-                <a href="#about" class="btn btn-primary btn-lg">Read More</a>
+                <a href="<?= base_url('details/WorldWarII')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>
@@ -98,7 +100,7 @@
                 <p>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
                     Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.
                 </p>
-                <a href="#about" class="btn btn-primary btn-lg">Read More</a>
+                <a href="<?= base_url('details/Prehistory')?>" class="btn btn-primary btn-lg">J'ai envie de visiter</a>
                 <div class="w3-container w3-center">
 
                 </div>

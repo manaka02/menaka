@@ -12,7 +12,7 @@ class Accueil extends CI_Controller{
         $this->load->view('default',$data);
     }
 
-    public function preparer(){
+    public function Preparer(){
         $listeMonde = $this->Monde_model->allModel('monde', 'statut', '1');
         $listeTarifs = $this->Monde_model->allModel('tarif');
         $idUser = 1;
@@ -20,14 +20,17 @@ class Accueil extends CI_Controller{
         $data['listeTarifs'] = $listeTarifs;
         $data['idUser'] = $idUser;
         $data['contents'] = 'PreparerSejour.php';
+        $data['titre'] = "Préparer votre voyage";
         $this->load->view('default',$data);
     }
-    public function nosMondes(){
+    public function NosUnivers(){
         $data['contents'] = "NosMondes";
+        $data['titre'] = "Nos univers";
         $this->load->view('default',$data);
     }
-    public function vote(){
+    public function NouveauMonde(){
         $data['contents'] = "vote";
+        $data['titre'] = "Proposer un nouvel univers";
         $this->load->view('default',$data);
     }
     public function effectuerVote($id = ''){
