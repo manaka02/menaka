@@ -69,7 +69,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-primal">
                     <div class="gg-btn">
-                        <a href="<?= base_url('details/WorldWarII')?>" class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('details/PreHistory')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
                         </a>
                     </div>
@@ -81,7 +81,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="gg-box gg-guerre">
                     <div class="gg-btn">
-                        <a href="<?= base_url('Accueil/NosUnivers/PreHistory')?>" class="gg-btn btn btn-primary btn-lg">
+                        <a href="<?= base_url('Accueil/NosUnivers/WorldWarII')?>" class="gg-btn btn btn-primary btn-lg">
                             Découvrir
                         </a>
                     </div>
