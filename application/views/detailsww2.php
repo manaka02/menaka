@@ -107,7 +107,7 @@
                     <h4 >Bienvenue dans le monde de la guerre</h4>
                     <p><i>Nous sommes en 1942, en plein milieu de la seconde guerre mondiale.
                             Le Chaos est partout, le monde est dévasté. </i>
-                        Je suis le Général Mike. J'ai été formé à la guerre dès mon plus jeune âge. Je dirige une armée pour qui veut retrouver la paix d'autrefois
+                        Je suis le Général Manakà. J'ai été formé à la guerre dès mon plus jeune âge. Je dirige une armée pour qui veut retrouver la paix d'autrefois
                         Tu seras en ma protection une fois ici. Rejoins la bonne armée!
                        .</p>
                 </div>
