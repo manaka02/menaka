@@ -52,11 +52,11 @@ class Monde_model extends CI_Model{
 
     public function insertVote($idmonde){
         if(is_numeric($idmonde)){
-        $user = $this->$this->session->userdata('user');
+        $user = $this->session->userdata('user');
             try {
                 $data = array(
                     'idvote' => '',
-                    'iduser'   => $user.iduser,
+                    'iduser'   => $user[0]->iduser,
                     'idmonde'   => $idmonde,
                     'valeur'  => 1
                 );
