@@ -120,7 +120,7 @@
 			<div class="box">
 				<h2>Tarif <b>Solutions</b></h2>
 				<p>
-					Si vous vouliez faire une artie en famille ou à plusieurs. Ceci est le mieux pour vous.
+					Si vous voulez vivre de bonnes expériences en famille ou à plusieurs, <i>Solution</i> est le mieux pour vous.
 					<br> Une offre dédiée specialement aux aventures de groupe.
 				</p>
 				<a href="#contact" class="btn btn-warning btn-lg">Prendre le billet!</a>
@@ -130,7 +130,7 @@
 			<div class="box">
 				<h2>Enjoy <b>Life</b></h2>
 				<p>
-					l'offre la plus chère mais la meilleure, on vous traitera comme un Dieu et comme un Seigneur où que vous soyez dans nos mondes.
+					L'offre la plus couteuse mais la meilleure. Son expérience est deux fois plus intéressante mais aussi deux fois plus confortable. Chaque détail comptera!
 					<br> Alors, vous attendez quoi encore?
 				</p>
 				<a href="#contact" class="btn btn-primary btn-lg">Prendre le billet!</a>
