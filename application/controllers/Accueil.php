@@ -30,4 +30,8 @@ class Accueil extends CI_Controller{
         $data['contents'] = "vote";
         $this->load->view('default',$data);
     }
+    public function effectuerVote($id = ''){
+        $this->Monde_model->getVoteParid($id);
+        $this->Monde_model->insertVote($id);
+    }
 }

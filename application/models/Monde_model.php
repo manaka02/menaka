@@ -50,20 +50,44 @@ class Monde_model extends CI_Model{
         }
     }
 
-    public function insertVote($iduser, $idmonde){
+    public function insertVote($idmonde){
+        if(is_numeric($idmonde)){
+        $user = $this->$this->session->userdata('user');
+            try {
+                $data = array(
+                    'idvote' => '',
+                    'iduser'   => $user.iduser,
+                    'idmonde'   => $idmonde,
+                    'valeur'  => 0
+                );
+                $this->db->insert('vote', $data);
+            } catch (Exception $e) {
+                throw new Exception($e->getMessage());
+            }
+        }
+    }
+
+    public function updateVote($idmonde, $valeur){
+        $user = $this->$this->session->userdata('user');
         try {
             $data = array(
-                'iduser'   => $iduser,
-                'idmonde'   => $idmonde
-            );
-            $this->db->insert('vote', $data);
+                'valeur' => $valeur*(-1)
+        );
+            $this->db->where(array('iduser' => $user.iduser,'idmonde' => $idmonde));
+            $this->db->update("user",$data);
         } catch (Exception $e) {
             throw new Exception($e->getMessage());
         }
-
     }
 
-
+    public function getVoteParId($idmonde){
+        try {
+            $query = $this->db->get_where('vote',array('iduser' => $iduser, 'idmonde' => $idmonde));
+            return $query->result();
+        } catch (Exception $e) {
+            throw new Exception($e->getMessage());
+        }
+    }
 
     public function ficheEtudiant($param){
         return $this->db->get_where("Etudiant",array('nom'=>'Miorantsoa'));

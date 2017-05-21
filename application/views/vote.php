@@ -85,9 +85,9 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>
-					<div class="col-sm-4 text-center row">
-						<h3><i><b>3</b></i> Vote(s)</h3>
-						<a href="#" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</a>
+					<div class="col-sm-4 text-center row"  ng-app="myApp" ng-controller="myCtrl">
+						<h3><i><b>{{vote}}</b></i> Vote(s)</h3>
+						<button ng-click="myFunction('<?= 1 ?>')" class="btn btn-primary btn-lg" data-animation="animated fadeInRight">Voter</button>
 					</div>
 				</div>
 			</div>
@@ -104,3 +104,21 @@
 <script src="<?= base_url() ?>assets/js/jquery.easing.min.js"></script>
 <script src="<?= base_url() ?>assets/js/wow.min.js"></script>
 <script src="<?= base_url() ?>assets/js/common.js"></script>
+
+	<script>
+		var app = angular.module('myApp', []);
+		app.controller('myCtrl', function($scope,$http) {
+			$scope.vote = 3;
+			$scope.myFunction = function(id) {
+				if($scope.vote > 4){
+					$scope.vote = $scope.vote-2;
+				}
+				$http.get("<?= base_url() ?>Accueil/effectuerVote/"+id)
+					.then(function(response) {
+						$scope.vote = $scope.vote+1;
+					}),(function(error) {
+//					$scope.myWelcome = response.data;
+					});
+			}
+		});
+	</script>
